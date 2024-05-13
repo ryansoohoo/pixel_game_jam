@@ -6,27 +6,25 @@ public class Player : Unit
 {
     public float dashSpeed = 15.0f;          // Speed during a dash
     public float dashDuration = 0.2f;        // How long the dash lasts
-    public float acceleration = 1.0f;
-    public float deceleration = 0.95f;
-    public float dragCoefficient = 0.1f;
-    public Vector2 currentForce = new Vector2(0.1f, 0); // for currents
-    public float buoyancy = 0.5f;
-    public float buoyancyFrequency = 2f;
+    public float acceleration = 1.0f;        // Acceleration rate
+    public float deceleration = 0.95f;       // Deceleration rate when no input is provided
+    public Vector2 currentForce = new Vector2(0.1f, 0); // Simulated water current
+    public float buoyancy = 0.5f;            // Buoyancy effect strength
+    public float buoyancyFrequency = 2f;     // Frequency of buoyancy oscillation
 
     private Vector2 currentVelocity;
     private float dashTimeLeft = 0f;         // Timer to manage dash duration
     private bool isDashing = false;          // Is the player currently dashing?
+    private Vector2 inputRaw;
 
-    Vector2 inputRaw;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        rb.gravityScale = 0;
+        rb.gravityScale = 0; 
     }
 
     void Update()
     {
-        // Check for dash input (using Shift key as an example)
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             StartDash();
@@ -48,15 +46,14 @@ public class Player : Unit
             inputRaw = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
             currentVelocity += currentForce * Time.fixedDeltaTime;
 
-            if (inputRaw.magnitude > 0) // Apply acceleration
+            if (inputRaw.magnitude > 0) // acceleration
             {
                 currentVelocity += inputRaw.normalized * acceleration * Time.fixedDeltaTime;
                 currentVelocity = Vector2.ClampMagnitude(currentVelocity, speed);
             }
-            else // Apply deceleration
+            else // deceleration
             {
                 currentVelocity *= deceleration;
-                ApplyFluidDrag();
             }
 
             rb.velocity = currentVelocity;
@@ -68,7 +65,7 @@ public class Player : Unit
     {
         isDashing = true;
         dashTimeLeft = dashDuration;
-        currentVelocity = inputRaw.normalized * dashSpeed; // Set the current velocity to dash speed in the current direction
+        currentVelocity = inputRaw.normalized * dashSpeed;
         rb.velocity = currentVelocity;
     }
 
@@ -80,19 +77,9 @@ public class Player : Unit
     void ApplyBuoyancyEffect()
     {
         float buoyancyOffset = Mathf.Sin(Time.fixedTime * Mathf.PI * buoyancyFrequency) * buoyancy;
-        if (!isDashing) // Avoid applying buoyancy while dashing
+        if (!isDashing)
         {
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y + buoyancyOffset);
-        }
-    }
-
-    void ApplyFluidDrag()
-    {
-        if (!isDashing) // Avoid drag during a dash
-        {
-            float speed = currentVelocity.magnitude;
-            Vector2 drag = dragCoefficient * speed * speed * -currentVelocity.normalized;
-            currentVelocity += drag * Time.fixedDeltaTime;
         }
     }
 }

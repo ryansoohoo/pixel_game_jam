@@ -646,8 +646,7 @@ MonoBehaviour:
   dashSpeed: 10
   dashDuration: 0.1
   acceleration: 10
-  deceleration: 0.95
-  dragCoefficient: 0.01
+  deceleration: 0.93
   currentForce: {x: 0, y: 0}
   buoyancy: 0.3
   buoyancyFrequency: 1
