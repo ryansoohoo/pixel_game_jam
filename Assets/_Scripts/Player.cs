@@ -6,25 +6,26 @@ public class Player : Unit
 {
     public Animator anim;
     public SpriteRenderer spriteChild;
-    public float dashSpeed = 15.0f;          // Speed during a dash
-    public float swimKickSpeed = 3f;         // Speed during a swim kick
-    public float dashDuration = 0.05f;       // How long the dash lasts
-    public float acceleration = 1.0f;        // Acceleration rate
-    public float deceleration = 0.95f;       // Deceleration rate when no input is provided
-    public Vector2 currentForce = new Vector2(0.1f, 0); // Simulated water current
-    public float buoyancy = 0.5f;            // Buoyancy effect strength
-    public float buoyancyFrequency = 2f;     // Frequency of buoyancy oscillation
-    public float divingDuration = 1.0f;      // Duration of the diving state
-    public float waterSurfaceY = 0.0f;       // Y-coordinate of the water surface
-    public float waterThreshold = 0.1f;      // Threshold for transitioning at the water surface
-    
+    public float dashSpeed = 15.0f;
+    public float swimKickSpeed = 3f;
+    public float dashDuration = 0.05f;
+    public float acceleration = 1.0f;
+    public float deceleration = 0.95f;
+    public Vector2 currentForce = new Vector2(0.1f, 0);
+    public float buoyancy = 0.5f;
+    public float buoyancyFrequency = 2f;
+    public float divingDuration = 1.0f;
+    public float waterSurfaceY = 0.0f;
+    public float waterThreshold = 0.1f;
+
     private Vector2 inputRaw;
     private Vector2 currentVelocity;
     private float dashTimeLeft = 0f;
     private bool isDashing = false;
     private bool isInWater = true;
-    private float divingTimeLeft = 0f;       // Timer for how long the diving state lasts
+    private float divingTimeLeft = 0f;
     float divespeed = 1f;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -44,7 +45,6 @@ public class Player : Unit
         float angle = Mathf.Atan2(inputRaw.y, inputRaw.x) * Mathf.Rad2Deg;
         spriteChild.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle - 90));
 
-        // Transition check improved to manage diving state correctly
         float yPos = transform.position.y;
         if (yPos > waterSurfaceY + waterThreshold && isInWater && divingTimeLeft <= 0)
         {
@@ -61,10 +61,8 @@ public class Player : Unit
         if (divingTimeLeft > 0)
         {
             divingTimeLeft -= Time.fixedDeltaTime;
-           
-            rb.velocity = new Vector2(rb.velocity.x, -divespeed) ;  // Ensure a constant downward movement
+            rb.velocity = new Vector2(rb.velocity.x, -divespeed);
             currentVelocity = Vector3.zero;
-
             velocityenter = 0;
         }
         else if (isDashing)
@@ -77,12 +75,12 @@ public class Player : Unit
         }
         else if (isInWater)
         {
-            if (inputRaw.magnitude > 0) // acceleration
+            if (inputRaw.magnitude > 0)
             {
                 currentVelocity += inputRaw.normalized * acceleration * Time.fixedDeltaTime;
                 currentVelocity = Vector2.ClampMagnitude(currentVelocity, speed);
             }
-            else // deceleration
+            else
             {
                 currentVelocity *= deceleration;
             }
@@ -92,7 +90,7 @@ public class Player : Unit
         }
         else
         {
-            rb.gravityScale = 1.0f; // Apply gravity when out of water
+            rb.gravityScale = 1.0f;
         }
     }
 
@@ -122,17 +120,16 @@ public class Player : Unit
     {
         velocityenter = rb.velocity.magnitude;
         isInWater = false;
-        rb.gravityScale = 1; // Apply gravity when the player is out of water
+        rb.gravityScale = 1;
     }
 
     float velocityenter;
     public override void WaterEnter()
     {
-
         isInWater = true;
-        rb.gravityScale = 0; // Remove gravity effect in water
-        rb.velocity = new Vector2(rb.velocity.x, -speed * 2); // Give a strong initial downward boost
-        divingTimeLeft = divingDuration; // Start the diving state duration
+        rb.gravityScale = 0;
+        rb.velocity = new Vector2(rb.velocity.x, -speed * 2);
+        divingTimeLeft = divingDuration;
     }
 
     public void _AnimEventSwimKick()
