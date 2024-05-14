@@ -10,7 +10,7 @@ public class CameraFollow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        newPos = Vector3.Lerp(transform.position, follow.position, slerpValue * Time.deltaTime);
+        newPos = follow.position;
         newPos.z = -10;
         transform.position = newPos;
     }

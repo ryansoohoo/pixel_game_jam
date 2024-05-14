@@ -5,9 +5,10 @@ using UnityEngine;
 public class Player : Unit
 {
     public Animator anim;
-    public Transform spriteChild;
+    public SpriteRenderer spriteChild;
     public float dashSpeed = 15.0f;          // Speed during a dash
-    public float dashDuration = 0.2f;        // How long the dash lasts
+    public float swimKickSpeed = 3f;          // Speed during a dash
+    public float dashDuration = 0.05f;        // How long the dash lasts
     public float acceleration = 1.0f;        // Acceleration rate
     public float deceleration = 0.95f;       // Deceleration rate when no input is provided
     public Vector2 currentForce = new Vector2(0.1f, 0); // Simulated water current
@@ -19,11 +20,6 @@ public class Player : Unit
     private bool isDashing = false;          // Is the player currently dashing?
     private Vector2 inputRaw;
 
-    void Start()
-    {
-        rb = GetComponent<Rigidbody2D>();
-        rb.gravityScale = 0; 
-    }
 
     void Update()
     {
@@ -33,6 +29,7 @@ public class Player : Unit
         {
             StartDash();
         }
+        spriteChild.flipX = inputRaw.x <     0;
         float angle = Mathf.Atan2(inputRaw.y, inputRaw.x) * Mathf.Rad2Deg;
         //spriteChild.rotation = Quaternion.Euler(new Vector3(0, 0, angle - 90));
     }
@@ -87,5 +84,13 @@ public class Player : Unit
         {
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y + buoyancyOffset);
         }
+    }
+
+    public void _AnimEventSwimKick()
+    {
+        isDashing = true;
+        dashTimeLeft = dashDuration;
+        currentVelocity = inputRaw.normalized * swimKickSpeed;
+        rb.velocity = currentVelocity;
     }
 }
