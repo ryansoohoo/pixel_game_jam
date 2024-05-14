@@ -35,13 +35,22 @@ public class Player : Unit
     void Update()
     {
         inputRaw = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        anim.SetFloat("x", inputRaw.x);
-        anim.SetFloat("y", inputRaw.y);
+        if (isInWater)
+        {
+            spriteChild.flipX = inputRaw.x < 0;
+            anim.SetFloat("x", inputRaw.x);
+            anim.SetFloat("y", inputRaw.y);
+        }
+        else
+        {
+            spriteChild.flipX = rb.velocity.x < 0;
+            anim.SetFloat("x", rb.velocity.x);
+            anim.SetFloat("y", rb.velocity.y);
+        }
         if (Input.GetKeyDown(KeyCode.LeftShift) && isInWater && divingTimeLeft <= 0)
         {
             StartDash();
         }
-        spriteChild.flipX = inputRaw.x < 0;
         //float angle = Mathf.Atan2(inputRaw.y, inputRaw.x) * Mathf.Rad2Deg;
         //spriteChild.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle - 90));
 
