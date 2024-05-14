@@ -27,13 +27,14 @@ public class Player : Unit
 
     void Update()
     {
-        anim.SetFloat("x", rb.velocity.x);
-        anim.SetFloat("y", rb.velocity.y);
+        anim.SetFloat("x", inputRaw.x);
+        anim.SetFloat("y", inputRaw.y);
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             StartDash();
         }
-        spriteChild.forward = inputRaw;
+        float angle = Mathf.Atan2(inputRaw.y, inputRaw.x) * Mathf.Rad2Deg;
+        //spriteChild.rotation = Quaternion.Euler(new Vector3(0, 0, angle - 90));
     }
 
     void FixedUpdate()
