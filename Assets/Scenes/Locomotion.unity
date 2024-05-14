@@ -848,12 +848,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dfd60c0a367c6c4c8769c4aa7fa144b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2.5
   rb: {fileID: 2145278459}
   anim: {fileID: 2145278464}
   spriteChild: {fileID: 2145278465}
-  dashSpeed: 10
-  swimKickSpeed: 3.4
+  dashSpeed: 7
+  swimKickSpeed: 3.5
   dashDuration: 0.3
   acceleration: 10
   deceleration: 0.93
