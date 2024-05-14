@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Player : Unit
 {
+    public Animator anim;
+    public Transform spriteChild;
     public float dashSpeed = 15.0f;          // Speed during a dash
     public float dashDuration = 0.2f;        // How long the dash lasts
     public float acceleration = 1.0f;        // Acceleration rate
@@ -25,10 +27,13 @@ public class Player : Unit
 
     void Update()
     {
+        anim.SetFloat("x", rb.velocity.x);
+        anim.SetFloat("y", rb.velocity.y);
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             StartDash();
         }
+        spriteChild.forward = inputRaw;
     }
 
     void FixedUpdate()

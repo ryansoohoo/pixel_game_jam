@@ -1,0 +1,397 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: otter_swim_down
+    m_Hash: 340584236
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: otter_downward_swim_0
+      m_Hash: 849256190
+      m_Sprite: {fileID: -2035428538, guid: 17410386c1b0a114a9bdf828bca3faf2, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2035428538, guid: 17410386c1b0a114a9bdf828bca3faf2, type: 3}
+    - m_Name: otter_downward_swim_1
+      m_Hash: 93957736
+      m_Sprite: {fileID: -1662633285, guid: 17410386c1b0a114a9bdf828bca3faf2, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1662633285, guid: 17410386c1b0a114a9bdf828bca3faf2, type: 3}
+    - m_Name: otter_downward_swim_2
+      m_Hash: 479264722
+      m_Sprite: {fileID: -387345056, guid: 17410386c1b0a114a9bdf828bca3faf2, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -387345056, guid: 17410386c1b0a114a9bdf828bca3faf2, type: 3}
+    - m_Name: otter_downward_swim_3
+      m_Hash: 731369284
+      m_Sprite: {fileID: -1918160188, guid: 17410386c1b0a114a9bdf828bca3faf2, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1918160188, guid: 17410386c1b0a114a9bdf828bca3faf2, type: 3}
+    - m_Name: otter_downward_swim_4
+      m_Hash: 905140967
+      m_Sprite: {fileID: -1804610780, guid: 17410386c1b0a114a9bdf828bca3faf2, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1804610780, guid: 17410386c1b0a114a9bdf828bca3faf2, type: 3}
+    - m_Name: otter_downward_swim_5
+      m_Hash: 49572465
+      m_Sprite: {fileID: -920394730, guid: 17410386c1b0a114a9bdf828bca3faf2, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -920394730, guid: 17410386c1b0a114a9bdf828bca3faf2, type: 3}
+    - m_Name: otter_downward_swim_6
+      m_Hash: 469580747
+      m_Sprite: {fileID: -285984382, guid: 17410386c1b0a114a9bdf828bca3faf2, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -285984382, guid: 17410386c1b0a114a9bdf828bca3faf2, type: 3}
+    - m_Name: otter_downward_swim_7
+      m_Hash: 754584413
+      m_Sprite: {fileID: 1636900534, guid: 17410386c1b0a114a9bdf828bca3faf2, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1636900534, guid: 17410386c1b0a114a9bdf828bca3faf2, type: 3}
+    - m_Name: otter_downward_swim_8
+      m_Hash: 1011160780
+      m_Sprite: {fileID: -2146388389, guid: 17410386c1b0a114a9bdf828bca3faf2, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2146388389, guid: 17410386c1b0a114a9bdf828bca3faf2, type: 3}
+    - m_Name: otter_downward_swim_9
+      m_Hash: 188884570
+      m_Sprite: {fileID: -2004843231, guid: 17410386c1b0a114a9bdf828bca3faf2, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2004843231, guid: 17410386c1b0a114a9bdf828bca3faf2, type: 3}
+    - m_Name: otter_downward_swim_10
+      m_Hash: 926396389
+      m_Sprite: {fileID: -406880033, guid: 17410386c1b0a114a9bdf828bca3faf2, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -406880033, guid: 17410386c1b0a114a9bdf828bca3faf2, type: 3}
+    - m_Name: otter_downward_swim_11
+      m_Hash: 3186547
+      m_Sprite: {fileID: 1005041531, guid: 17410386c1b0a114a9bdf828bca3faf2, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1005041531, guid: 17410386c1b0a114a9bdf828bca3faf2, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 12
+  - m_Name: otter_horizontal
+    m_Hash: 613486981
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: otter_horizontal_swim_0
+      m_Hash: 799342788
+      m_Sprite: {fileID: 67511569, guid: 20941f36331fe3a4d95c93391e9ec7c4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 67511569, guid: 20941f36331fe3a4d95c93391e9ec7c4, type: 3}
+    - m_Name: otter_horizontal_swim_1
+      m_Hash: 413282386
+      m_Sprite: {fileID: 965115535, guid: 20941f36331fe3a4d95c93391e9ec7c4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 965115535, guid: 20941f36331fe3a4d95c93391e9ec7c4, type: 3}
+    - m_Name: otter_horizontal_swim_2
+      m_Hash: 28008936
+      m_Sprite: {fileID: -1527388027, guid: 20941f36331fe3a4d95c93391e9ec7c4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1527388027, guid: 20941f36331fe3a4d95c93391e9ec7c4, type: 3}
+    - m_Name: otter_horizontal_swim_3
+      m_Hash: 917262718
+      m_Sprite: {fileID: -2105290885, guid: 20941f36331fe3a4d95c93391e9ec7c4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2105290885, guid: 20941f36331fe3a4d95c93391e9ec7c4, type: 3}
+    - m_Name: otter_horizontal_swim_4
+      m_Hash: 684246237
+      m_Sprite: {fileID: 1655661807, guid: 20941f36331fe3a4d95c93391e9ec7c4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1655661807, guid: 20941f36331fe3a4d95c93391e9ec7c4, type: 3}
+    - m_Name: otter_horizontal_swim_5
+      m_Hash: 533722187
+      m_Sprite: {fileID: 1863869863, guid: 20941f36331fe3a4d95c93391e9ec7c4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1863869863, guid: 20941f36331fe3a4d95c93391e9ec7c4, type: 3}
+    - m_Name: otter_horizontal_swim_6
+      m_Hash: 113681905
+      m_Sprite: {fileID: 38556091, guid: 20941f36331fe3a4d95c93391e9ec7c4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 38556091, guid: 20941f36331fe3a4d95c93391e9ec7c4, type: 3}
+    - m_Name: otter_horizontal_swim_7
+      m_Hash: 834770279
+      m_Sprite: {fileID: 470640946, guid: 20941f36331fe3a4d95c93391e9ec7c4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 470640946, guid: 20941f36331fe3a4d95c93391e9ec7c4, type: 3}
+    - m_Name: otter_horizontal_swim_8
+      m_Hash: 561940726
+      m_Sprite: {fileID: 2089367157, guid: 20941f36331fe3a4d95c93391e9ec7c4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2089367157, guid: 20941f36331fe3a4d95c93391e9ec7c4, type: 3}
+    - m_Name: otter_horizontal_swim_9
+      m_Hash: 377075808
+      m_Sprite: {fileID: -233744379, guid: 20941f36331fe3a4d95c93391e9ec7c4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -233744379, guid: 20941f36331fe3a4d95c93391e9ec7c4, type: 3}
+    - m_Name: otter_horizontal_swim_10
+      m_Hash: 828788169
+      m_Sprite: {fileID: 2114755813, guid: 20941f36331fe3a4d95c93391e9ec7c4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2114755813, guid: 20941f36331fe3a4d95c93391e9ec7c4, type: 3}
+    - m_Name: otter_horizontal_swim_11
+      m_Hash: 107052383
+      m_Sprite: {fileID: -418270488, guid: 20941f36331fe3a4d95c93391e9ec7c4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -418270488, guid: 20941f36331fe3a4d95c93391e9ec7c4, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 12
+  - m_Name: otter_idle
+    m_Hash: 510969763
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: otter_idle_0
+      m_Hash: 436815237
+      m_Sprite: {fileID: -1943507527, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1943507527, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_1
+      m_Hash: 755922195
+      m_Sprite: {fileID: 1144413768, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1144413768, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_2
+      m_Hash: 872883369
+      m_Sprite: {fileID: 252869511, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 252869511, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_3
+      m_Hash: 50336831
+      m_Sprite: {fileID: 984429491, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 984429491, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_4
+      m_Hash: 493126044
+      m_Sprite: {fileID: -910191148, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -910191148, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_5
+      m_Hash: 711176458
+      m_Sprite: {fileID: -881446430, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -881446430, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_6
+      m_Hash: 862642352
+      m_Sprite: {fileID: -2097568710, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2097568710, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_7
+      m_Hash: 74305574
+      m_Sprite: {fileID: 525924453, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 525924453, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_8
+      m_Hash: 349359543
+      m_Sprite: {fileID: -641495185, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -641495185, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_9
+      m_Hash: 601226529
+      m_Sprite: {fileID: -1250392901, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1250392901, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_10
+      m_Hash: 818450570
+      m_Sprite: {fileID: -98716151, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -98716151, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_11
+      m_Hash: 131047452
+      m_Sprite: {fileID: 306622714, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 306622714, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_12
+      m_Hash: 516354470
+      m_Sprite: {fileID: -453527854, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -453527854, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_13
+      m_Hash: 700563760
+      m_Sprite: {fileID: -1399628046, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1399628046, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_14
+      m_Hash: 933581971
+      m_Sprite: {fileID: 1206764306, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1206764306, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_15
+      m_Hash: 10642437
+      m_Sprite: {fileID: -1056879764, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1056879764, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_16
+      m_Hash: 430650815
+      m_Sprite: {fileID: -1769043794, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1769043794, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_17
+      m_Hash: 783025449
+      m_Sprite: {fileID: 654838467, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 654838467, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_18
+      m_Hash: 1041438904
+      m_Sprite: {fileID: 506248778, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 506248778, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_19
+      m_Hash: 152315950
+      m_Sprite: {fileID: 1828596281, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1828596281, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_20
+      m_Hash: 468042569
+      m_Sprite: {fileID: 819026241, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 819026241, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_21
+      m_Hash: 753071071
+      m_Sprite: {fileID: 268529363, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 268529363, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_22
+      m_Hash: 904634981
+      m_Sprite: {fileID: -1397247418, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1397247418, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_23
+      m_Hash: 49058547
+      m_Sprite: {fileID: 160044627, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 160044627, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_24
+      m_Hash: 478676816
+      m_Sprite: {fileID: 865710, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 865710, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_25
+      m_Hash: 730806214
+      m_Sprite: {fileID: -1386078959, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1386078959, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_26
+      m_Hash: 847668860
+      m_Sprite: {fileID: -1365593295, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1365593295, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_27
+      m_Hash: 92362474
+      m_Sprite: {fileID: -723821906, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -723821906, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_28
+      m_Hash: 356404091
+      m_Sprite: {fileID: -1286797051, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1286797051, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_29
+      m_Hash: 574192621
+      m_Sprite: {fileID: 1769799148, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1769799148, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_30
+      m_Hash: 50262536
+      m_Sprite: {fileID: 1178415285, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1178415285, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_31
+      m_Hash: 905560734
+      m_Sprite: {fileID: -144608180, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -144608180, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_32
+      m_Hash: 753963812
+      m_Sprite: {fileID: 293989565, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 293989565, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_33
+      m_Hash: 469214130
+      m_Sprite: {fileID: -1560976236, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1560976236, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    - m_Name: otter_idle_34
+      m_Hash: 93533713
+      m_Sprite: {fileID: 1607039784, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1607039784, guid: aaabee633ab97c947a61cd517e443d49, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 35
+  - m_Name: otter_upward_swim
+    m_Hash: 731915561
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: otter_upward_swim_0
+      m_Hash: 358695876
+      m_Sprite: {fileID: 1005078715, guid: 9ad87e910773d0a40b811328ded12fe9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1005078715, guid: 9ad87e910773d0a40b811328ded12fe9, type: 3}
+    - m_Name: otter_upward_swim_1
+      m_Hash: 577139538
+      m_Sprite: {fileID: 2042493933, guid: 9ad87e910773d0a40b811328ded12fe9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2042493933, guid: 9ad87e910773d0a40b811328ded12fe9, type: 3}
+    - m_Name: otter_upward_swim_2
+      m_Hash: 997139176
+      m_Sprite: {fileID: 1698962113, guid: 9ad87e910773d0a40b811328ded12fe9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1698962113, guid: 9ad87e910773d0a40b811328ded12fe9, type: 3}
+    - m_Name: otter_upward_swim_3
+      m_Hash: 208147070
+      m_Sprite: {fileID: -1456597068, guid: 9ad87e910773d0a40b811328ded12fe9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1456597068, guid: 9ad87e910773d0a40b811328ded12fe9, type: 3}
+    - m_Name: otter_upward_swim_4
+      m_Hash: 302811101
+      m_Sprite: {fileID: -1718883811, guid: 9ad87e910773d0a40b811328ded12fe9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1718883811, guid: 9ad87e910773d0a40b811328ded12fe9, type: 3}
+    - m_Name: otter_upward_swim_5
+      m_Hash: 621524811
+      m_Sprite: {fileID: 1032810554, guid: 9ad87e910773d0a40b811328ded12fe9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1032810554, guid: 9ad87e910773d0a40b811328ded12fe9, type: 3}
+    - m_Name: otter_upward_swim_6
+      m_Hash: 1006823153
+      m_Sprite: {fileID: 1588492061, guid: 9ad87e910773d0a40b811328ded12fe9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1588492061, guid: 9ad87e910773d0a40b811328ded12fe9, type: 3}
+    - m_Name: otter_upward_swim_7
+      m_Hash: 184931943
+      m_Sprite: {fileID: 2010688993, guid: 9ad87e910773d0a40b811328ded12fe9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2010688993, guid: 9ad87e910773d0a40b811328ded12fe9, type: 3}
+    - m_Name: otter_upward_swim_8
+      m_Hash: 465226742
+      m_Sprite: {fileID: 803421451, guid: 9ad87e910773d0a40b811328ded12fe9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 803421451, guid: 9ad87e910773d0a40b811328ded12fe9, type: 3}
+    - m_Name: otter_upward_swim_9
+      m_Hash: 750648160
+      m_Sprite: {fileID: -1033746870, guid: 9ad87e910773d0a40b811328ded12fe9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1033746870, guid: 9ad87e910773d0a40b811328ded12fe9, type: 3}
+    - m_Name: otter_upward_swim_10
+      m_Hash: 832342410
+      m_Sprite: {fileID: 132971104, guid: 9ad87e910773d0a40b811328ded12fe9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 132971104, guid: 9ad87e910773d0a40b811328ded12fe9, type: 3}
+    - m_Name: otter_upward_swim_11
+      m_Hash: 110868764
+      m_Sprite: {fileID: 1436672208, guid: 9ad87e910773d0a40b811328ded12fe9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1436672208, guid: 9ad87e910773d0a40b811328ded12fe9, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 12
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 638512795910675341
+  m_Version: 1
