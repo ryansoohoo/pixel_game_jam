@@ -42,8 +42,8 @@ public class Player : Unit
             StartDash();
         }
         spriteChild.flipX = inputRaw.x < 0;
-        float angle = Mathf.Atan2(inputRaw.y, inputRaw.x) * Mathf.Rad2Deg;
-        spriteChild.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle - 90));
+        //float angle = Mathf.Atan2(inputRaw.y, inputRaw.x) * Mathf.Rad2Deg;
+        //spriteChild.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle - 90));
 
         float yPos = transform.position.y;
         if (yPos > waterSurfaceY + waterThreshold && isInWater && divingTimeLeft <= 0)
