@@ -13,4 +13,14 @@ public class Unit : MonoBehaviour
         // Move the player
         rb.velocity = new Vector2(input.x, input.y) * speed;
     }
+
+    public virtual void WaterExit()
+    {
+
+    }
+
+    public virtual void WaterEnter()
+    {
+
+    }
 }

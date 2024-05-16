@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9ad87e910773d0a40b811328ded12fe9
+guid: 6b3c1a4efe69d304ea3bac24ed480d88
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,253 +136,253 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: otter_upward_swim_0
+      name: snorkle_and_goggles_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 36
-        height: 36
-      alignment: 0
+        width: 32
+        height: 48
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0970ce7bcb2aab74d805e415688e159f
-      internalID: 1005078715
+      spriteID: 76cfbf6e75bb5a8458b7e2e77a99a710
+      internalID: 454955010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: otter_upward_swim_1
+      name: snorkle_and_goggles_1
       rect:
         serializedVersion: 2
-        x: 36
+        x: 32
         y: 0
-        width: 36
-        height: 36
-      alignment: 0
+        width: 32
+        height: 48
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcf10818824e43747a66c19e1011ccd8
-      internalID: 2042493933
+      spriteID: c8f1ce68c788d52439c16fdc0a20d736
+      internalID: 588305655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: otter_upward_swim_2
+      name: snorkle_and_goggles_2
       rect:
         serializedVersion: 2
-        x: 72
+        x: 64
         y: 0
-        width: 36
-        height: 36
-      alignment: 0
+        width: 32
+        height: 48
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a266be99a10f0e74bb5f926364f1ec51
-      internalID: 1698962113
+      spriteID: 4e1c17baeda0c7e4683eb4375d7a1472
+      internalID: -26448479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: otter_upward_swim_3
+      name: snorkle_and_goggles_3
       rect:
         serializedVersion: 2
-        x: 108
+        x: 96
         y: 0
-        width: 36
-        height: 36
-      alignment: 0
+        width: 32
+        height: 48
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4d7fb72766bb604f9db42e9f9db3ae3
-      internalID: -1456597068
+      spriteID: b60d2acc35a7492448be8b7dc2ffdbd1
+      internalID: 166468
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: otter_upward_swim_4
+      name: snorkle_and_goggles_4
       rect:
         serializedVersion: 2
-        x: 144
+        x: 128
         y: 0
-        width: 36
-        height: 36
-      alignment: 0
+        width: 32
+        height: 48
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5671543bf588c8b44bd66c2873681b11
-      internalID: -1718883811
+      spriteID: c25ba9628dd28a14c98259ee2ef41766
+      internalID: 487786122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: otter_upward_swim_5
+      name: snorkle_and_goggles_5
       rect:
         serializedVersion: 2
-        x: 180
+        x: 160
         y: 0
-        width: 36
-        height: 36
-      alignment: 0
+        width: 32
+        height: 48
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82d5711f21d87bc4090d05790eedc985
-      internalID: 1032810554
+      spriteID: ecfb467309565934cb2848872afd4f34
+      internalID: -1550116024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: otter_upward_swim_6
+      name: snorkle_and_goggles_6
       rect:
         serializedVersion: 2
-        x: 216
+        x: 192
         y: 0
-        width: 36
-        height: 36
-      alignment: 0
+        width: 32
+        height: 48
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e14730f195459384eb0b8c97413e4427
-      internalID: 1588492061
+      spriteID: f92588cb186bc1c4f8c96a4f3d65afe0
+      internalID: 2036444018
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: otter_upward_swim_7
+      name: snorkle_and_goggles_7
       rect:
         serializedVersion: 2
-        x: 252
+        x: 224
         y: 0
-        width: 36
-        height: 36
-      alignment: 0
+        width: 32
+        height: 48
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 814a176308f4d774c9fad42551eb0c0b
-      internalID: 2010688993
+      spriteID: 69e4c6d6b9f423e40ab031843afbb161
+      internalID: 1335920334
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: otter_upward_swim_8
+      name: snorkle_and_goggles_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd34a0101973574e911efc648895b37
+      internalID: 1845316058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snorkle_and_goggles_9
       rect:
         serializedVersion: 2
         x: 288
         y: 0
-        width: 36
-        height: 36
-      alignment: 0
+        width: 32
+        height: 48
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d040d6baac714f438af9a887857b20d
-      internalID: 803421451
+      spriteID: fa63d0643c3aae04ea1caacb489240d7
+      internalID: -977045838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: otter_upward_swim_9
+      name: snorkle_and_goggles_10
       rect:
         serializedVersion: 2
-        x: 324
+        x: 320
         y: 0
-        width: 36
-        height: 36
-      alignment: 0
+        width: 32
+        height: 48
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c87f2366f971006448c5182bd84af424
-      internalID: -1033746870
+      spriteID: 57eaf623b910928488b979296f9dfb9b
+      internalID: -980912492
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: otter_upward_swim_10
+      name: snorkle_and_goggles_11
       rect:
         serializedVersion: 2
-        x: 360
+        x: 352
         y: 0
-        width: 36
-        height: 36
-      alignment: 0
+        width: 32
+        height: 48
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45553f671b9632949aa86a458193b586
-      internalID: 132971104
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: otter_upward_swim_11
-      rect:
-        serializedVersion: 2
-        x: 396
-        y: 0
-        width: 36
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8edbcad150133a04b803f5e8a2978a14
-      internalID: 1436672208
+      spriteID: cd1198be89763c64f97bef5c4c9e50b4
+      internalID: 488840507
       vertices: []
       indices: 
       edges: []
@@ -398,18 +398,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      otter_upward_swim_0: 1005078715
-      otter_upward_swim_1: 2042493933
-      otter_upward_swim_10: 132971104
-      otter_upward_swim_11: 1436672208
-      otter_upward_swim_2: 1698962113
-      otter_upward_swim_3: -1456597068
-      otter_upward_swim_4: -1718883811
-      otter_upward_swim_5: 1032810554
-      otter_upward_swim_6: 1588492061
-      otter_upward_swim_7: 2010688993
-      otter_upward_swim_8: 803421451
-      otter_upward_swim_9: -1033746870
+      snorkle_and_goggles_0: 454955010
+      snorkle_and_goggles_1: 588305655
+      snorkle_and_goggles_10: -980912492
+      snorkle_and_goggles_11: 488840507
+      snorkle_and_goggles_2: -26448479
+      snorkle_and_goggles_3: 166468
+      snorkle_and_goggles_4: 487786122
+      snorkle_and_goggles_5: -1550116024
+      snorkle_and_goggles_6: 2036444018
+      snorkle_and_goggles_7: 1335920334
+      snorkle_and_goggles_8: 1845316058
+      snorkle_and_goggles_9: -977045838
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
