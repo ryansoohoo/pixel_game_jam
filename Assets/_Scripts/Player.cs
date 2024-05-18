@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Player : Unit
 {
+    public static Player instance;
     public Animator anim;
     public SpriteRenderer spriteChild;
     public float dashSpeed = 15.0f;
@@ -15,6 +16,7 @@ public class Player : Unit
     public float divingDuration = 1.0f;
     public float waterSurfaceY = 0.0f;
     public float waterThreshold = 0.1f;
+    public bool inDropBox = false;
 
     private Vector2 inputRaw;
     private Vector2 currentVelocity;
@@ -23,6 +25,12 @@ public class Player : Unit
     private bool isInWater = true;
     private float divingTimeLeft = 0f;
     float divespeed = 1f;
+
+    
+    private void Awake()
+    {
+        if(instance == null) instance = this;
+    }
 
     void Start()
     {
@@ -126,6 +134,23 @@ public class Player : Unit
         divingTimeLeft = divingDuration;
     }
 
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        Triggerbox trigger = collision.gameObject.GetComponent<Triggerbox>();
+        if (trigger == null)
+            return;
+
+        trigger.OnEnter();
+    }
+
+    public void OnTriggerExit2D(Collider2D collision)
+    {
+        Triggerbox trigger = collision.gameObject.GetComponent<Triggerbox>();
+        if (trigger == null)
+            return;
+
+        trigger.OnExit();
+    }
     public void _AnimEventSwimKick()
     {
         if (!isInWater)

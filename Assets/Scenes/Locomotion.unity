@@ -792,6 +792,7 @@ GameObject:
   - component: {fileID: 1388440879}
   - component: {fileID: 1388440881}
   - component: {fileID: 1388440880}
+  - component: {fileID: 1388440882}
   m_Layer: 0
   m_Name: DropOff
   m_TagString: Untagged
@@ -914,6 +915,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1388440882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1388440878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3c3ad37accf69940bd5b7a99c823c7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2145278453
 GameObject:
   m_ObjectHideFlags: 0

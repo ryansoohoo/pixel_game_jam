@@ -8,8 +8,7 @@ public class Inventory : MonoBehaviour
     public int maxSize = 1;
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        GameObject gameObject = collision.gameObject;
-        Item item = gameObject?.GetComponent<Item>();
+        Item item = collision.gameObject.GetComponent<Item>();
         if(collectables.Count < maxSize)
             AddCollectable(item.PickUp());
     }
