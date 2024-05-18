@@ -5,10 +5,13 @@ using UnityEngine;
 public class Inventory : MonoBehaviour
 {
     public List<Collectable> collectables = new List<Collectable>();
+    public int maxSize = 1;
     public void OnTriggerEnter2D(Collider2D collision)
     {
         GameObject gameObject = collision.gameObject;
         Item item = gameObject?.GetComponent<Item>();
+        if(collectables.Count < maxSize)
+            AddCollectable(item.PickUp());
     }
 
     public void AddCollectable(Collectable collectable)
