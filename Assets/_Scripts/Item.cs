@@ -6,5 +6,9 @@ public class Item : MonoBehaviour
 {
     public Collectable collectable;
 
-
+    public Collectable PickUp()
+    {
+        Destroy(gameObject);
+        return collectable;
+    }
 }
