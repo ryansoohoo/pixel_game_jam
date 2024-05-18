@@ -12,8 +12,6 @@ public class Player : Unit
     public float acceleration = 1.0f;
     public float deceleration = 0.95f;
     public Vector2 currentForce = new Vector2(0.1f, 0);
-    public float buoyancy = 0.5f;
-    public float buoyancyFrequency = 2f;
     public float divingDuration = 1.0f;
     public float waterSurfaceY = 0.0f;
     public float waterThreshold = 0.1f;
@@ -35,8 +33,7 @@ public class Player : Unit
     void Update()
     {
         inputRaw = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        if (isInWater)
-        {
+        if (isInWater) {
             spriteChild.flipX = inputRaw.x < 0;
             anim.SetFloat("x", inputRaw.x);
             anim.SetFloat("y", inputRaw.y);
@@ -47,16 +44,13 @@ public class Player : Unit
             anim.SetFloat("x", rb.velocity.x);
             anim.SetFloat("y", rb.velocity.y);
         }
-        if (Input.GetKeyDown(KeyCode.LeftShift) && isInWater && divingTimeLeft <= 0)
-        {
+
+        if (Input.GetKeyDown(KeyCode.LeftShift) && isInWater && divingTimeLeft <= 0) {
             StartDash();
         }
-        //float angle = Mathf.Atan2(inputRaw.y, inputRaw.x) * Mathf.Rad2Deg;
-        //spriteChild.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle - 90));
 
         float yPos = transform.position.y;
-        if (yPos > waterSurfaceY + waterThreshold && isInWater && divingTimeLeft <= 0)
-        {
+        if (yPos > waterSurfaceY + waterThreshold && isInWater && divingTimeLeft <= 0) {
             WaterExit();
         }
         else if (yPos < waterSurfaceY - waterThreshold && !isInWater)
@@ -67,23 +61,24 @@ public class Player : Unit
 
     void FixedUpdate()
     {
-        if (divingTimeLeft > 0)
-        {
+        if (divingTimeLeft > 0) {
             divingTimeLeft -= Time.fixedDeltaTime;
             rb.velocity = new Vector2(rb.velocity.x, -divespeed);
             currentVelocity = Vector3.zero;
-            velocityenter = 0;
+            return;
         }
-        else if (isDashing)
-        {
+        
+        
+        if (isDashing) {
             dashTimeLeft -= Time.fixedDeltaTime;
-            if (dashTimeLeft <= 0)
-            {
+            if (dashTimeLeft <= 0) {
                 EndDash();
+                return;
             }
+            return;
         }
-        else if (isInWater)
-        {
+        
+        if (isInWater) {
             if (inputRaw.magnitude > 0)
             {
                 currentVelocity += inputRaw.normalized * acceleration * Time.fixedDeltaTime;
@@ -95,7 +90,8 @@ public class Player : Unit
             }
 
             rb.velocity = currentVelocity;
-            ApplyBuoyancyEffect();
+            if(!isDashing)
+                ApplyBuoyancyEffect();
         }
         else
         {
@@ -116,23 +112,12 @@ public class Player : Unit
         isDashing = false;
     }
 
-    void ApplyBuoyancyEffect()
-    {
-        float buoyancyOffset = Mathf.Sin(Time.fixedTime * Mathf.PI * buoyancyFrequency) * buoyancy;
-        if (!isDashing)
-        {
-            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y + buoyancyOffset);
-        }
-    }
-
     public override void WaterExit()
     {
-        velocityenter = rb.velocity.magnitude;
         isInWater = false;
         rb.gravityScale = 1;
     }
 
-    float velocityenter;
     public override void WaterEnter()
     {
         isInWater = true;
