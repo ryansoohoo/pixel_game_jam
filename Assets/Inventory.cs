@@ -9,6 +9,7 @@ public class Inventory : MonoBehaviour
     public List<Collectable> collectables = new List<Collectable>();
     public int maxSize = 1;
     public UnityEvent<Collectable> OnCollect;
+    public UnityEvent<Collectable> OnRemove;
     public bool HasItem()
     {
         return collectables.Count != 0;
@@ -26,7 +27,7 @@ public class Inventory : MonoBehaviour
     {
         if (collectable != null && !collectables.Contains(collectable))
         {
-            OnCollect.Invoke(collectable);
+            OnCollect?.Invoke(collectable);
             collectables.Add(collectable);
             Debug.Log("Collectable added: " + collectable.name);
         }
@@ -40,6 +41,7 @@ public class Inventory : MonoBehaviour
     {
         if (collectable != null && collectables.Contains(collectable))
         {
+            OnRemove?.Invoke(collectable);
             collectables.Remove(collectable);
             Debug.Log("Collectable removed: " + collectable.name);
         }

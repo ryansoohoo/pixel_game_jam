@@ -14,7 +14,7 @@ public class MainManager : MonoBehaviour
     public void MoveItem(Collectable item, Inventory inv1, Inventory inv2)
     {
         // animation or something to move item from player inventory to boat inventory
-        inv1.collectables.Remove(item);
-        inv2.collectables.Add(item);
+        inv1.RemoveCollectable(item);
+        inv2.AddCollectable(item);
     }
 }

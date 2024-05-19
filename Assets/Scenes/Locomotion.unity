@@ -145,7 +145,7 @@ Transform:
   m_GameObject: {fileID: 60957221}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.07, z: 0}
+  m_LocalPosition: {x: 0.06, y: -0.08, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -194,7 +194,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 1146142439, guid: 376be32e3f5ad2c4cb40ea6006fb7d94, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -202,7 +202,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1001 &464046652
@@ -256,7 +256,7 @@ PrefabInstance:
     - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
       propertyPath: collectable
       value: 
-      objectReference: {fileID: 11400000, guid: 1871244872782654da0212a89c4d992c, type: 2}
+      objectReference: {fileID: 11400000, guid: 3bb5843fee4300244baa27506b94b416, type: 2}
     - target: {fileID: 5977287343167150182, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
       propertyPath: m_Constraints
       value: 7
@@ -674,7 +674,7 @@ PrefabInstance:
     - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
       propertyPath: collectable
       value: 
-      objectReference: {fileID: 11400000, guid: 0a9f6ac0dae72a8448573eca099384dc, type: 2}
+      objectReference: {fileID: 11400000, guid: d6e0538cdb04f4647ba356c0d2273e07, type: 2}
     - target: {fileID: 5977287343167150182, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
       propertyPath: m_Constraints
       value: 7
@@ -748,6 +748,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: collectable
+      value: 
+      objectReference: {fileID: 11400000, guid: f1413c7fdb39216439d0fa1eb480e5b5, type: 2}
     - target: {fileID: 5977287343167150182, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
       propertyPath: m_Constraints
       value: 7
@@ -812,7 +816,7 @@ PrefabInstance:
     - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
       propertyPath: collectable
       value: 
-      objectReference: {fileID: 11400000, guid: c85efb101867a5b41ab5ca7effb46cc7, type: 2}
+      objectReference: {fileID: 11400000, guid: fc310cd6769fbb146ad43af6ccfa3234, type: 2}
     - target: {fileID: 5977287343167150182, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
       propertyPath: m_Constraints
       value: 7
@@ -930,6 +934,9 @@ MonoBehaviour:
   collectables: []
   maxSize: 0
   OnCollect:
+    m_PersistentCalls:
+      m_Calls: []
+  OnRemove:
     m_PersistentCalls:
       m_Calls: []
 --- !u!114 &941203229
@@ -1052,7 +1059,7 @@ PrefabInstance:
     - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
       propertyPath: collectable
       value: 
-      objectReference: {fileID: 11400000, guid: f0f926a2dbbd82b4bb87679993d9bee0, type: 2}
+      objectReference: {fileID: 11400000, guid: 8dc0e66ddbf485d4ebb350afa87835cd, type: 2}
     - target: {fileID: 5977287343167150182, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
       propertyPath: m_Constraints
       value: 7
@@ -1203,7 +1210,7 @@ PrefabInstance:
     - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
       propertyPath: collectable
       value: 
-      objectReference: {fileID: 11400000, guid: dc458fcad8ac0ad4aae8ba17f1ed9776, type: 2}
+      objectReference: {fileID: 11400000, guid: 37e4597001df5614e8e9340e7be07b0b, type: 2}
     - target: {fileID: 5977287343167150182, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
       propertyPath: m_Constraints
       value: 7
@@ -1513,7 +1520,7 @@ PrefabInstance:
     - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
       propertyPath: collectable
       value: 
-      objectReference: {fileID: 11400000, guid: 1f82c9427947aad478f9826a1dbb6b40, type: 2}
+      objectReference: {fileID: 11400000, guid: 74afe29c922bf4048a604933b60b1d05, type: 2}
     - target: {fileID: 5977287343167150182, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
       propertyPath: m_Constraints
       value: 7
@@ -1590,7 +1597,7 @@ PrefabInstance:
     - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
       propertyPath: collectable
       value: 
-      objectReference: {fileID: 11400000, guid: 120f9e73e54a5424fad80c00c1d0c385, type: 2}
+      objectReference: {fileID: 11400000, guid: d6e0538cdb04f4647ba356c0d2273e07, type: 2}
     - target: {fileID: 5977287343167150182, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
       propertyPath: m_Constraints
       value: 7
@@ -1679,7 +1686,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 1146142439, guid: 376be32e3f5ad2c4cb40ea6006fb7d94, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1687,7 +1694,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!50 &707428874632152775
@@ -1967,6 +1974,21 @@ MonoBehaviour:
       - m_Target: {fileID: 3530264517997160260}
         m_TargetAssemblyTypeName: Player, Assembly-CSharp
         m_MethodName: Equip
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnRemove:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3530264517997160260}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: RemoveHat
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

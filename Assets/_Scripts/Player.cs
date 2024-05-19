@@ -168,4 +168,10 @@ public class Player : Unit
     {
         hat.sprite = collectable.image;
     }
+
+    public void RemoveHat(Collectable collectable)
+    {
+        hat.sprite = null;
+        print("remove hat");
+    }
 }
