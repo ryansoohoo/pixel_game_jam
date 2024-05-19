@@ -6,12 +6,20 @@ public enum CollectableState
 {
     Level,PlayerHeld,OnFishingLine,OnBoat
 }
+
+public enum CharacterLikings
+{
+    Omar,Olga,Oscar,Octavia
+}
 [CreateAssetMenu(fileName = "NewCollectableData", menuName = "ScriptableObjects/NewCollectableData", order = 1)]
 public class Collectable : ScriptableObject
 {
     public Sprite image;
-    public Sprite imageBehind;
+    public Sprite imageDown;
+    public AnimationClip idle;
+    public AnimationClip down;
 
+    public CharacterLikings characterLiking;
     public string itemName;
     public string desc;
 

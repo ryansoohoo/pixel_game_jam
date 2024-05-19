@@ -55,12 +55,14 @@ public class Player : Unit
         inputRaw = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         if (isInWater) {
             spriteChild.flipX = inputRaw.x < 0;
+            hat.flipX = inputRaw.x < 0;
             anim.SetFloat("x", inputRaw.x);
             anim.SetFloat("y", inputRaw.y);
         }
         else
         {
             spriteChild.flipX = rb.velocity.x < 0;
+            hat.flipX = rb.velocity.x < 0;
             anim.SetFloat("x", rb.velocity.x);
             anim.SetFloat("y", rb.velocity.y);
         }
