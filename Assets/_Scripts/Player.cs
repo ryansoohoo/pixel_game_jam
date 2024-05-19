@@ -41,6 +41,16 @@ public class Player : Unit
 
     void Update()
     {
+        float yPos = transform.position.y;
+        if (yPos > waterSurfaceY + waterThreshold && isInWater && divingTimeLeft <= 0)
+        {
+            WaterExit();
+        }
+        else if (yPos < waterSurfaceY - waterThreshold && !isInWater)
+        {
+            WaterEnter();
+        }
+
         inputRaw = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         if (isInWater) {
             spriteChild.flipX = inputRaw.x < 0;
@@ -56,15 +66,6 @@ public class Player : Unit
 
         if (Input.GetKeyDown(KeyCode.LeftShift) && isInWater && divingTimeLeft <= 0) {
             StartDash();
-        }
-
-        float yPos = transform.position.y;
-        if (yPos > waterSurfaceY + waterThreshold && isInWater && divingTimeLeft <= 0) {
-            WaterExit();
-        }
-        else if (yPos < waterSurfaceY - waterThreshold && !isInWater)
-        {
-            WaterEnter();
         }
     }
 
