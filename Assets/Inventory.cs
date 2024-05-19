@@ -6,9 +6,16 @@ public class Inventory : MonoBehaviour
 {
     public List<Collectable> collectables = new List<Collectable>();
     public int maxSize = 1;
+
+    public bool HasItem()
+    {
+        return collectables.Count != 0;
+    }
     public void OnTriggerEnter2D(Collider2D collision)
     {
         Item item = collision.gameObject.GetComponent<Item>();
+        if (item == null)
+            return;
         if(collectables.Count < maxSize)
             AddCollectable(item.PickUp());
     }

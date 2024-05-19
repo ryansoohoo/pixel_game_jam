@@ -491,6 +491,63 @@ Transform:
   - {fileID: 1166194939}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &741016780
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3552176098373667836, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.062482238
+      objectReference: {fileID: 0}
+    - target: {fileID: 3552176098373667836, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.8637534
+      objectReference: {fileID: 0}
+    - target: {fileID: 3552176098373667836, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3552176098373667836, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3552176098373667836, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3552176098373667836, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3552176098373667836, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3552176098373667836, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3552176098373667836, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3552176098373667836, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052750359491829736, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: m_Name
+      value: Collectable
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
 --- !u!1 &941203225
 GameObject:
   m_ObjectHideFlags: 0
@@ -501,6 +558,8 @@ GameObject:
   m_Component:
   - component: {fileID: 941203227}
   - component: {fileID: 941203226}
+  - component: {fileID: 941203229}
+  - component: {fileID: 941203228}
   m_Layer: 0
   m_Name: Otterboat
   m_TagString: Untagged
@@ -578,6 +637,33 @@ Transform:
   - {fileID: 1388440879}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &941203228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 941203225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d07b15c8a9922924cb2bfc80c4de608f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectables: []
+  maxSize: 0
+--- !u!114 &941203229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 941203225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ab6311203506f743b95bcff3c29b447, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory: {fileID: 941203228}
 --- !u!1 &984196743
 GameObject:
   m_ObjectHideFlags: 0
@@ -587,6 +673,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 984196744}
+  - component: {fileID: 984196745}
   m_Layer: 0
   m_Name: Spawners
   m_TagString: Untagged
@@ -609,6 +696,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &984196745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984196743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a2084673458207448ff80e29c133760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1166194938
 GameObject:
   m_ObjectHideFlags: 0
@@ -927,6 +1026,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3c3ad37accf69940bd5b7a99c823c7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  otterboat: {fileID: 941203229}
 --- !u!1 &2145278453
 GameObject:
   m_ObjectHideFlags: 0
@@ -1117,6 +1217,7 @@ MonoBehaviour:
   rb: {fileID: 2145278459}
   buoyancy: 0.15
   buoyancyFrequency: 0.5
+  inventory: {fileID: 2145278469}
   anim: {fileID: 2145278464}
   spriteChild: {fileID: 2145278465}
   dashSpeed: 4
@@ -1128,6 +1229,7 @@ MonoBehaviour:
   divingDuration: 0.01
   waterSurfaceY: 0
   waterThreshold: 0.15
+  inDropBox: 0
 --- !u!95 &2145278464
 Animator:
   serializedVersion: 7
@@ -1282,8 +1384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d07b15c8a9922924cb2bfc80c4de608f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collectables:
-  - {fileID: 0}
+  collectables: []
   maxSize: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -1296,3 +1397,4 @@ SceneRoots:
   - {fileID: 688968060}
   - {fileID: 941203227}
   - {fileID: 984196744}
+  - {fileID: 741016780}

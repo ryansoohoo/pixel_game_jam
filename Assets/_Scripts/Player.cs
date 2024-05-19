@@ -5,6 +5,7 @@ using UnityEngine;
 public class Player : Unit
 {
     public static Player instance;
+    public Inventory inventory;
     public Animator anim;
     public SpriteRenderer spriteChild;
     public float dashSpeed = 15.0f;
