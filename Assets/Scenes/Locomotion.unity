@@ -1566,10 +1566,10 @@ MonoBehaviour:
   anim: {fileID: 2145278464}
   spriteChild: {fileID: 2145278465}
   dashSpeed: 4
-  swimKickSpeed: 3.5
+  swimKickSpeed: 2.75
   dashDuration: 0.2
   acceleration: 10
-  deceleration: 0.93
+  deceleration: 0.95
   currentForce: {x: 0, y: 0}
   divingDuration: 0.01
   waterSurfaceY: 0
