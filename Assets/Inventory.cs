@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Inventory : MonoBehaviour
 {
+
     public List<Collectable> collectables = new List<Collectable>();
     public int maxSize = 1;
-
+    public UnityEvent<Collectable> OnCollect;
     public bool HasItem()
     {
         return collectables.Count != 0;
@@ -24,6 +26,7 @@ public class Inventory : MonoBehaviour
     {
         if (collectable != null && !collectables.Contains(collectable))
         {
+            OnCollect.Invoke(collectable);
             collectables.Add(collectable);
             Debug.Log("Collectable added: " + collectable.name);
         }

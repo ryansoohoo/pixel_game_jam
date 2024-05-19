@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0ddf3981d634db04284ccbd550ebdde6, type: 3}
-  m_Name: SeaUrchin 4
+  m_Name: Crown of Purpliness
   m_EditorClassIdentifier: 
   image: {fileID: 1415923744, guid: 376be32e3f5ad2c4cb40ea6006fb7d94, type: 3}
-  itemName: Sea Urchin
+  itemName: Crown of Purpliness
   desc: 
   dropRate: 0.1
   weight: 2

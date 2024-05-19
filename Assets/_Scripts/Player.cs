@@ -8,6 +8,7 @@ public class Player : Unit
     public Inventory inventory;
     public Animator anim;
     public SpriteRenderer spriteChild;
+    public SpriteRenderer hat;
     public float dashSpeed = 15.0f;
     public float swimKickSpeed = 3f;
     public float dashDuration = 0.05f;
@@ -161,5 +162,10 @@ public class Player : Unit
         dashTimeLeft = dashDuration;
         currentVelocity = inputRaw.normalized * swimKickSpeed;
         rb.velocity = currentVelocity;
+    }
+
+    public void Equip(Collectable collectable)
+    {
+        hat.sprite = collectable.image;
     }
 }

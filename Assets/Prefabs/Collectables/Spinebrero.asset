@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0ddf3981d634db04284ccbd550ebdde6, type: 3}
-  m_Name: SeaUrchin 7
+  m_Name: Spinebrero
   m_EditorClassIdentifier: 
-  image: {fileID: -919409895, guid: 376be32e3f5ad2c4cb40ea6006fb7d94, type: 3}
-  itemName: Sea Urchin
+  image: {fileID: 1146142439, guid: 376be32e3f5ad2c4cb40ea6006fb7d94, type: 3}
+  itemName: Spinebrero
   desc: 
   dropRate: 0.1
   weight: 2
