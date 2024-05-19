@@ -13,7 +13,10 @@ MonoBehaviour:
   m_Name: Smiley Shawl
   m_EditorClassIdentifier: 
   image: {fileID: 598416780, guid: e69503f53bf853f49927301a5a4dba61, type: 3}
-  imageBehind: {fileID: -1416997583, guid: e69503f53bf853f49927301a5a4dba61, type: 3}
+  imageDown: {fileID: 0}
+  idle: {fileID: 0}
+  down: {fileID: 0}
+  characterLiking: 1
   itemName: Smiley Shawl
   desc: "It\u2019s giving bigger-boat energy"
   dropRate: 0.1

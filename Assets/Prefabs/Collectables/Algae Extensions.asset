@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0ddf3981d634db04284ccbd550ebdde6, type: 3}
-  m_Name: Bucket Hat
+  m_Name: Algae Extensions
   m_EditorClassIdentifier: 
-  image: {fileID: 398040450, guid: e69503f53bf853f49927301a5a4dba61, type: 3}
+  image: {fileID: 0}
   imageDown: {fileID: 0}
-  idle: {fileID: 0}
-  down: {fileID: 0}
-  characterLiking: 3
-  itemName: Bucket Hat
-  desc: "This one\u2019s a little on the nose"
+  idle: {fileID: 7400000, guid: 9ccaf2a933f946b4dbdfc786ede7bae7, type: 2}
+  down: {fileID: 7400000, guid: e0398e199a7b11344a4b99867a0dc0a0, type: 2}
+  characterLiking: 2
+  itemName: Algae Extensions
+  desc: Roll one for sushi, not for Scooby
   dropRate: 0.1
   weight: 2
   itemIndex: 0

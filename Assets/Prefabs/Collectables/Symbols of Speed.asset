@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ddf3981d634db04284ccbd550ebdde6, type: 3}
   m_Name: Symbols of Speed
   m_EditorClassIdentifier: 
-  image: {fileID: 705866198, guid: e69503f53bf853f49927301a5a4dba61, type: 3}
-  imageBehind: {fileID: 0}
+  image: {fileID: 159271581, guid: e69503f53bf853f49927301a5a4dba61, type: 3}
+  imageDown: {fileID: 673048118, guid: e69503f53bf853f49927301a5a4dba61, type: 3}
+  idle: {fileID: 0}
+  down: {fileID: 0}
+  characterLiking: 1
   itemName: Symbols of Speed
   desc: Fly fast as flippin Phelps
   dropRate: 0.1

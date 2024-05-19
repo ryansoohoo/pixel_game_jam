@@ -13,7 +13,10 @@ MonoBehaviour:
   m_Name: Super Scrunchie
   m_EditorClassIdentifier: 
   image: {fileID: 1304434198, guid: e69503f53bf853f49927301a5a4dba61, type: 3}
-  imageBehind: {fileID: 0}
+  imageDown: {fileID: 0}
+  idle: {fileID: 0}
+  down: {fileID: 0}
+  characterLiking: 3
   itemName: Super Scrunchie
   desc: "Somebody\u2019s fishing for compliments"
   dropRate: 0.1
