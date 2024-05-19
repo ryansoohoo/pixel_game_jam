@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ddf3981d634db04284ccbd550ebdde6, type: 3}
   m_Name: Bathtime Beret
   m_EditorClassIdentifier: 
-  image: {fileID: -919409895, guid: 376be32e3f5ad2c4cb40ea6006fb7d94, type: 3}
+  image: {fileID: -423899867, guid: e69503f53bf853f49927301a5a4dba61, type: 3}
+  imageBehind: {fileID: 0}
   itemName: Bathtime Beret
-  desc: 
+  desc: "You\u2019re the one"
   dropRate: 0.1
   weight: 2
   itemIndex: 0

@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ddf3981d634db04284ccbd550ebdde6, type: 3}
   m_Name: Spinebrero
   m_EditorClassIdentifier: 
-  image: {fileID: 1146142439, guid: 376be32e3f5ad2c4cb40ea6006fb7d94, type: 3}
+  image: {fileID: 153451431, guid: e69503f53bf853f49927301a5a4dba61, type: 3}
+  imageBehind: {fileID: 0}
   itemName: Spinebrero
-  desc: 
+  desc: "Poverty\u2019s thorny, sure, but it\u2019s no invasive species"
   dropRate: 0.1
   weight: 2
   itemIndex: 0

@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0ddf3981d634db04284ccbd550ebdde6, type: 3}
-  m_Name: Drifthood
+  m_Name: Super Scrunchie
   m_EditorClassIdentifier: 
-  image: {fileID: 1932810744, guid: e69503f53bf853f49927301a5a4dba61, type: 3}
+  image: {fileID: 1304434198, guid: e69503f53bf853f49927301a5a4dba61, type: 3}
   imageBehind: {fileID: 0}
-  itemName: Drifthood
-  desc: Board over man!
+  itemName: Super Scrunchie
+  desc: "Somebody\u2019s fishing for compliments"
   dropRate: 0.1
   weight: 2
   itemIndex: 0

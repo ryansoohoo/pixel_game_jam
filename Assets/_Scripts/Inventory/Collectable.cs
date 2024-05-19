@@ -10,6 +10,7 @@ public enum CollectableState
 public class Collectable : ScriptableObject
 {
     public Sprite image;
+    public Sprite imageBehind;
 
     public string itemName;
     public string desc;

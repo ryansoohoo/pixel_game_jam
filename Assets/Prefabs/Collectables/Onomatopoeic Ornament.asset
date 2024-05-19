@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0ddf3981d634db04284ccbd550ebdde6, type: 3}
-  m_Name: Crown of Purpliness
+  m_Name: Onomatopoeic Ornament
   m_EditorClassIdentifier: 
-  image: {fileID: 1415923744, guid: 376be32e3f5ad2c4cb40ea6006fb7d94, type: 3}
-  itemName: Crown of Purpliness
-  desc: 
+  image: {fileID: 1232745517, guid: e69503f53bf853f49927301a5a4dba61, type: 3}
+  imageBehind: {fileID: 0}
+  itemName: Onomatopoeic Ornament
+  desc: "Grandma\u2019s loungewear, Gen Z\u2019s lingerie"
   dropRate: 0.1
   weight: 2
   itemIndex: 0

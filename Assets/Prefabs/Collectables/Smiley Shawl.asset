@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0ddf3981d634db04284ccbd550ebdde6, type: 3}
-  m_Name: Drifthood
+  m_Name: Smiley Shawl
   m_EditorClassIdentifier: 
-  image: {fileID: 1932810744, guid: e69503f53bf853f49927301a5a4dba61, type: 3}
-  imageBehind: {fileID: 0}
-  itemName: Drifthood
-  desc: Board over man!
+  image: {fileID: 598416780, guid: e69503f53bf853f49927301a5a4dba61, type: 3}
+  imageBehind: {fileID: -1416997583, guid: e69503f53bf853f49927301a5a4dba61, type: 3}
+  itemName: Smiley Shawl
+  desc: "It\u2019s giving bigger-boat energy"
   dropRate: 0.1
   weight: 2
   itemIndex: 0
