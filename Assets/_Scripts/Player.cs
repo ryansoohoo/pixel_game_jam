@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMOD.Studio;
 
 public class Player : Unit
 {
@@ -28,6 +29,7 @@ public class Player : Unit
     private float divingTimeLeft = 0f;
     float divespeed = 1f;
 
+    private EventInstance otterSwim;
     
     private void Awake()
     {
@@ -38,6 +40,7 @@ public class Player : Unit
     {
         rb = GetComponent<Rigidbody2D>();
         rb.gravityScale = 0;
+        otterSwim = AudioManager.instance.CreateInstance(FMODEvents.instance.otterSwim);
     }
 
     void Update()
@@ -69,6 +72,24 @@ public class Player : Unit
 
         if (Input.GetKeyDown(KeyCode.LeftShift) && isInWater && divingTimeLeft <= 0) {
             StartDash();
+        }
+    }
+
+    private void UpdateSound()
+    {
+        if (Mathf.Abs(rb.velocity.x) > 0.8 || Mathf.Abs(rb.velocity.y) > 0.8)
+        {
+            PLAYBACK_STATE playbackState;
+            otterSwim.getPlaybackState(out playbackState);
+            if (playbackState.Equals(PLAYBACK_STATE.STOPPED))
+            {
+                otterSwim.start();
+            }
+        }
+
+        else
+        {
+            otterSwim.stop(STOP_MODE.ALLOWFADEOUT);
         }
     }
 
@@ -110,6 +131,8 @@ public class Player : Unit
         {
             rb.gravityScale = 1.0f;
         }
+
+        UpdateSound();
     }
 
     void StartDash()
