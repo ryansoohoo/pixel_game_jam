@@ -16,6 +16,7 @@ public class Collectable : ScriptableObject
 {
     public Sprite image;
     public Sprite imageDown;
+    public Sprite imageNotCollected;
     public AnimationClip idle;
     public AnimationClip down;
 
