@@ -13,6 +13,7 @@ public struct SpawnInfo
 
 public class SpawnPattern : MonoBehaviour
 {
+    public List<Collectable> collectables;
     public SpawnInfo[] dictionary;
     public static SpawnPattern instance;
 
