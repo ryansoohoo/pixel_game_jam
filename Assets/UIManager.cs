@@ -91,7 +91,7 @@ public class UIManager : MonoBehaviour
                 fadeTimer = 0f;
             }
         }
-        else if (isFading)
+        else if (isFading && !CameraFollow.instance.inBoat)
         {
             // Fade out text
             fadeTimer += Time.deltaTime;
