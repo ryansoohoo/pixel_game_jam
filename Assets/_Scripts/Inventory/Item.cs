@@ -1,11 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity;
+using System.CodeDom;
 
 public class Item : Unit
 {
     public Collectable collectable;
 
+    //audio
+    [SerializeField] private EventReference hatCollectedSound;
+        
     public void Start()
     {
         collectable = SpawnPattern.instance.GetRandomCollectable();
@@ -18,6 +23,7 @@ public class Item : Unit
     public Collectable PickUp()
     {
         Destroy(gameObject);
+        AudioManager.instance.PlayOneShot(hatCollectedSound, this.transform.position);
         return collectable;
     }
 
