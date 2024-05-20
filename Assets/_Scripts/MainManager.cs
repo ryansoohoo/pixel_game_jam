@@ -16,5 +16,7 @@ public class MainManager : MonoBehaviour
         // animation or something to move item from player inventory to boat inventory
         inv1.RemoveCollectable(item);
         inv2.AddCollectable(item);
+
+        UIManager.Instance.StartTyping(item.name,item.desc);
     }
 }
