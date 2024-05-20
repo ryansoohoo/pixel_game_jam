@@ -1,7 +1,7 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 
 [System.Serializable]
 public struct SpawnInfo
@@ -17,9 +17,17 @@ public class SpawnPattern : MonoBehaviour
     public SpawnInfo[] dictionary;
     public static SpawnPattern instance;
 
+    public int currentWave = 0;
     public void Awake()
     {
         if(instance == null)
             instance = this;
     }
+
+
+    public Collectable GetRandomCollectable()
+    {
+        return collectables[Random.Range(0, collectables.Count)];
+    }
 }
+
