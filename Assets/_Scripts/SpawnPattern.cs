@@ -28,8 +28,9 @@ public class SpawnPattern : MonoBehaviour
 
     public Collectable GetRandomCollectable()
     {
-        currentWave += 1;
-        return collectables[Random.Range(0,collectables.Count)];
+        Collectable collectable = collectables[Random.Range(0, collectables.Count)];
+        collectables.Remove(collectable);
+        return collectable;
     }
 }
 
