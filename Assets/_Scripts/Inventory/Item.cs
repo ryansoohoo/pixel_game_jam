@@ -11,8 +11,10 @@ public class Item : Unit
 
     public void Start()
     {
-        collectable = SpawnPattern.instance.GetRandomCollectable();
-        GetComponent<SpriteRenderer>().sprite = collectable.image;
+        if(collectable == null)
+            collectable = SpawnPattern.instance.GetRandomCollectable();
+        if(collectable.image)
+            GetComponent<SpriteRenderer>().sprite = collectable.image;
         rb = GetComponent<Rigidbody2D>();
         buoyancy = Random.Range(0.25f, 0.5f);
         buoyancyFrequency = Random.Range(1f, 2f);

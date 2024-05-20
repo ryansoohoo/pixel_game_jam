@@ -6,6 +6,11 @@ public class MainManager : MonoBehaviour
 {
     public static MainManager instance;
 
+    public Animator oscar;
+    public Animator olga;
+    public Animator octavia;
+    public Animator omar;
+
     public void Awake()
     {
         instance = this; 
@@ -18,5 +23,9 @@ public class MainManager : MonoBehaviour
         inv2.AddCollectable(item);
 
         UIManager.Instance.StartTyping(item.name,item.desc);
+        oscar.SetTrigger("0");
+        olga.SetTrigger("0");
+        octavia.SetTrigger("0");
+        omar.SetTrigger("0");
     }
 }

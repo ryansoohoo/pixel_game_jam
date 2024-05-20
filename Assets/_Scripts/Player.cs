@@ -28,7 +28,8 @@ public class Player : Unit
     private float divingTimeLeft = 0f;
     float divespeed = 1f;
 
-    
+    protected Animator animator;
+    protected AnimatorOverrideController animatorOverrideController;
     private void Awake()
     {
         if(instance == null) instance = this;
@@ -38,6 +39,10 @@ public class Player : Unit
     {
         rb = GetComponent<Rigidbody2D>();
         rb.gravityScale = 0;
+
+        Animator hatAnim = hat.GetComponent<Animator>();
+        animatorOverrideController = new AnimatorOverrideController(hatAnim.runtimeAnimatorController);
+        hatAnim.runtimeAnimatorController = animatorOverrideController;
     }
 
     void Update()
@@ -168,11 +173,22 @@ public class Player : Unit
 
     public void Equip(Collectable collectable)
     {
-        hat.sprite = collectable.image;
+        if(collectable.idle != null)
+        {
+            hat.GetComponent<Animator>().enabled = true;
+            animatorOverrideController["idle"] = collectable.idle;
+        }
+        else
+        {
+            hat.sprite = collectable.image;
+            hat.GetComponent<Animator>().enabled = false;
+        }
     }
 
     public void RemoveHat(Collectable collectable)
     {
+        hat.GetComponent<Animator>().enabled = false;
+
         hat.sprite = null;
         print("remove hat");
     }
