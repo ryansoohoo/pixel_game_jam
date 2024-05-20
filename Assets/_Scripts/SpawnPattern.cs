@@ -27,6 +27,16 @@ public class SpawnPattern : MonoBehaviour
 
     public Collectable GetRandomCollectable()
     {
+        int rand = Random.Range(0, collectables.Count);
+        Collectable collectable;
+        for (int i = rand; i< collectables.Count; i++)
+        {
+            collectable = collectables[rand];
+            if (collectable.image == null)
+                i++;
+            else
+                return collectable;
+        }
         return collectables[Random.Range(0, collectables.Count)];
     }
 }
