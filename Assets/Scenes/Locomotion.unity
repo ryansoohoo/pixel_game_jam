@@ -366,6 +366,26 @@ PrefabInstance:
       propertyPath: collectable
       value: 
       objectReference: {fileID: 11400000, guid: 578d26f62fcb79641a08f5000269bfca, type: 2}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Path
+      value: event:/SFX/HatCollect
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data1
+      value: 711311556
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data2
+      value: 1296599306
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data3
+      value: 2038008964
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data4
+      value: 1489635298
+      objectReference: {fileID: 0}
     - target: {fileID: 9052750359491829736, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
       propertyPath: m_Name
       value: Collectable
@@ -427,6 +447,26 @@ PrefabInstance:
       propertyPath: collectable
       value: 
       objectReference: {fileID: 11400000, guid: 578d26f62fcb79641a08f5000269bfca, type: 2}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Path
+      value: event:/SFX/HatCollect
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data1
+      value: 711311556
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data2
+      value: 1296599306
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data3
+      value: 2038008964
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data4
+      value: 1489635298
+      objectReference: {fileID: 0}
     - target: {fileID: 9052750359491829736, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
       propertyPath: m_Name
       value: Collectable (11)
@@ -597,6 +637,26 @@ PrefabInstance:
       propertyPath: collectable
       value: 
       objectReference: {fileID: 11400000, guid: 578d26f62fcb79641a08f5000269bfca, type: 2}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Path
+      value: event:/SFX/HatCollect
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data1
+      value: 711311556
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data2
+      value: 1296599306
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data3
+      value: 2038008964
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data4
+      value: 1489635298
+      objectReference: {fileID: 0}
     - target: {fileID: 9052750359491829736, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
       propertyPath: m_Name
       value: Collectable (8)
@@ -830,6 +890,26 @@ PrefabInstance:
       propertyPath: collectable
       value: 
       objectReference: {fileID: 11400000, guid: 578d26f62fcb79641a08f5000269bfca, type: 2}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Path
+      value: event:/SFX/HatCollect
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data1
+      value: 711311556
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data2
+      value: 1296599306
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data3
+      value: 2038008964
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data4
+      value: 1489635298
+      objectReference: {fileID: 0}
     - target: {fileID: 9052750359491829736, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
       propertyPath: m_Name
       value: Collectable (12)
@@ -975,6 +1055,26 @@ PrefabInstance:
       propertyPath: collectable
       value: 
       objectReference: {fileID: 11400000, guid: 578d26f62fcb79641a08f5000269bfca, type: 2}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Path
+      value: event:/SFX/HatCollect
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data1
+      value: 711311556
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data2
+      value: 1296599306
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data3
+      value: 2038008964
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data4
+      value: 1489635298
+      objectReference: {fileID: 0}
     - target: {fileID: 9052750359491829736, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
       propertyPath: m_Name
       value: Collectable (17)
@@ -1138,6 +1238,69 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &692476571
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 692476573}
+  - component: {fileID: 692476572}
+  m_Layer: 0
+  m_Name: BackgroundMusic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &692476572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 692476571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1509575113
+      Data2: 1225825338
+      Data3: 855784326
+      Data4: -1336436491
+    Path: event:/Music/Game Music
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!4 &692476573
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 692476571}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.2621598, y: -9.590994, z: 0.050102532}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &762653725
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1190,6 +1353,26 @@ PrefabInstance:
       propertyPath: collectable
       value: 
       objectReference: {fileID: 11400000, guid: 578d26f62fcb79641a08f5000269bfca, type: 2}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Path
+      value: event:/SFX/HatCollect
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data1
+      value: 711311556
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data2
+      value: 1296599306
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data3
+      value: 2038008964
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data4
+      value: 1489635298
+      objectReference: {fileID: 0}
     - target: {fileID: 9052750359491829736, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
       propertyPath: m_Name
       value: Collectable (2)
@@ -1308,6 +1491,82 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &865726467
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 865726468}
+  m_Layer: 0
+  m_Name: Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &865726468
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865726467}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.2621598, y: -9.590994, z: 0.050102532}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 892477706}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &892477705
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 892477706}
+  - component: {fileID: 892477707}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &892477706
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 892477705}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 865726468}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &892477707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 892477705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92ffc6a4e85ac4444a48daa929343d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &938387678
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1360,6 +1619,26 @@ PrefabInstance:
       propertyPath: collectable
       value: 
       objectReference: {fileID: 11400000, guid: 578d26f62fcb79641a08f5000269bfca, type: 2}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Path
+      value: event:/SFX/HatCollect
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data1
+      value: 711311556
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data2
+      value: 1296599306
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data3
+      value: 2038008964
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data4
+      value: 1489635298
+      objectReference: {fileID: 0}
     - target: {fileID: 9052750359491829736, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
       propertyPath: m_Name
       value: Collectable (7)
@@ -1545,6 +1824,26 @@ PrefabInstance:
       propertyPath: collectable
       value: 
       objectReference: {fileID: 11400000, guid: 578d26f62fcb79641a08f5000269bfca, type: 2}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Path
+      value: event:/SFX/HatCollect
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data1
+      value: 711311556
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data2
+      value: 1296599306
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data3
+      value: 2038008964
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data4
+      value: 1489635298
+      objectReference: {fileID: 0}
     - target: {fileID: 9052750359491829736, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
       propertyPath: m_Name
       value: Collectable (16)
@@ -1606,6 +1905,26 @@ PrefabInstance:
       propertyPath: collectable
       value: 
       objectReference: {fileID: 11400000, guid: 578d26f62fcb79641a08f5000269bfca, type: 2}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Path
+      value: event:/SFX/HatCollect
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data1
+      value: 711311556
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data2
+      value: 1296599306
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data3
+      value: 2038008964
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data4
+      value: 1489635298
+      objectReference: {fileID: 0}
     - target: {fileID: 9052750359491829736, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
       propertyPath: m_Name
       value: Collectable (1)
@@ -1667,6 +1986,26 @@ PrefabInstance:
       propertyPath: collectable
       value: 
       objectReference: {fileID: 11400000, guid: 578d26f62fcb79641a08f5000269bfca, type: 2}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Path
+      value: event:/SFX/HatCollect
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data1
+      value: 711311556
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data2
+      value: 1296599306
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data3
+      value: 2038008964
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data4
+      value: 1489635298
+      objectReference: {fileID: 0}
     - target: {fileID: 9052750359491829736, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
       propertyPath: m_Name
       value: Collectable (14)
@@ -1814,6 +2153,26 @@ PrefabInstance:
       propertyPath: collectable
       value: 
       objectReference: {fileID: 11400000, guid: 578d26f62fcb79641a08f5000269bfca, type: 2}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Path
+      value: event:/SFX/HatCollect
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data1
+      value: 711311556
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data2
+      value: 1296599306
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data3
+      value: 2038008964
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data4
+      value: 1489635298
+      objectReference: {fileID: 0}
     - target: {fileID: 9052750359491829736, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
       propertyPath: m_Name
       value: Collectable (19)
@@ -1875,6 +2234,26 @@ PrefabInstance:
       propertyPath: collectable
       value: 
       objectReference: {fileID: 11400000, guid: 578d26f62fcb79641a08f5000269bfca, type: 2}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Path
+      value: event:/SFX/HatCollect
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data1
+      value: 711311556
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data2
+      value: 1296599306
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data3
+      value: 2038008964
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data4
+      value: 1489635298
+      objectReference: {fileID: 0}
     - target: {fileID: 9052750359491829736, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
       propertyPath: m_Name
       value: Collectable (6)
@@ -2116,6 +2495,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3c3ad37accf69940bd5b7a99c823c7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dropOffSound:
+    Guid:
+      Data1: -1446182478
+      Data2: 1333700623
+      Data3: 417206204
+      Data4: -1161799406
+    Path: event:/SFX/DropOff
   otterboat: {fileID: 941203229}
 --- !u!1001 &1406276887
 PrefabInstance:
@@ -2169,6 +2555,26 @@ PrefabInstance:
       propertyPath: collectable
       value: 
       objectReference: {fileID: 11400000, guid: 578d26f62fcb79641a08f5000269bfca, type: 2}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Path
+      value: event:/SFX/HatCollect
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data1
+      value: 711311556
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data2
+      value: 1296599306
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data3
+      value: 2038008964
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data4
+      value: 1489635298
+      objectReference: {fileID: 0}
     - target: {fileID: 9052750359491829736, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
       propertyPath: m_Name
       value: Collectable (4)
@@ -84747,6 +85153,26 @@ PrefabInstance:
       propertyPath: collectable
       value: 
       objectReference: {fileID: 11400000, guid: 578d26f62fcb79641a08f5000269bfca, type: 2}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Path
+      value: event:/SFX/HatCollect
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data1
+      value: 711311556
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data2
+      value: 1296599306
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data3
+      value: 2038008964
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data4
+      value: 1489635298
+      objectReference: {fileID: 0}
     - target: {fileID: 9052750359491829736, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
       propertyPath: m_Name
       value: Collectable (5)
@@ -84808,6 +85234,26 @@ PrefabInstance:
       propertyPath: collectable
       value: 
       objectReference: {fileID: 11400000, guid: 578d26f62fcb79641a08f5000269bfca, type: 2}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Path
+      value: event:/SFX/HatCollect
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data1
+      value: 711311556
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data2
+      value: 1296599306
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data3
+      value: 2038008964
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data4
+      value: 1489635298
+      objectReference: {fileID: 0}
     - target: {fileID: 9052750359491829736, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
       propertyPath: m_Name
       value: Collectable (3)
@@ -84869,6 +85315,26 @@ PrefabInstance:
       propertyPath: collectable
       value: 
       objectReference: {fileID: 11400000, guid: 578d26f62fcb79641a08f5000269bfca, type: 2}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Path
+      value: event:/SFX/HatCollect
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data1
+      value: 711311556
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data2
+      value: 1296599306
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data3
+      value: 2038008964
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data4
+      value: 1489635298
+      objectReference: {fileID: 0}
     - target: {fileID: 9052750359491829736, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
       propertyPath: m_Name
       value: Collectable (18)
@@ -85126,6 +85592,26 @@ PrefabInstance:
       propertyPath: collectable
       value: 
       objectReference: {fileID: 11400000, guid: 578d26f62fcb79641a08f5000269bfca, type: 2}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Path
+      value: event:/SFX/HatCollect
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data1
+      value: 711311556
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data2
+      value: 1296599306
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data3
+      value: 2038008964
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data4
+      value: 1489635298
+      objectReference: {fileID: 0}
     - target: {fileID: 9052750359491829736, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
       propertyPath: m_Name
       value: Collectable (13)
@@ -85218,6 +85704,26 @@ PrefabInstance:
       propertyPath: collectable
       value: 
       objectReference: {fileID: 11400000, guid: 578d26f62fcb79641a08f5000269bfca, type: 2}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Path
+      value: event:/SFX/HatCollect
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data1
+      value: 711311556
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data2
+      value: 1296599306
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data3
+      value: 2038008964
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423016600278915541, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
+      propertyPath: hatCollectedSound.Guid.Data4
+      value: 1489635298
+      objectReference: {fileID: 0}
     - target: {fileID: 9052750359491829736, guid: dca5888de26139841b99c3e4a96b36cb, type: 3}
       propertyPath: m_Name
       value: Collectable (9)
@@ -85884,6 +86390,8 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 519420032}
+  - {fileID: 865726468}
+  - {fileID: 692476573}
   - {fileID: 619394802}
   - {fileID: 2410711723410842905}
   - {fileID: 1370303709}
