@@ -57,8 +57,156 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1459f3e008956c4e9cfab8881d1b07c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collectables: []
+  collectables:
+  - {fileID: 11400000, guid: 981615deb71676142ad36dafafa1b38a, type: 2}
+  - {fileID: 11400000, guid: 27eda3900218c3142b866a7e9ae5579f, type: 2}
+  - {fileID: 11400000, guid: f1413c7fdb39216439d0fa1eb480e5b5, type: 2}
+  - {fileID: 11400000, guid: 8dc0e66ddbf485d4ebb350afa87835cd, type: 2}
+  - {fileID: 11400000, guid: 74afe29c922bf4048a604933b60b1d05, type: 2}
+  - {fileID: 11400000, guid: 7bd87f8dcf091604387ea1dc5928298f, type: 2}
+  - {fileID: 11400000, guid: 1187a6d3b7811be488bdf95ea2bf6243, type: 2}
+  - {fileID: 11400000, guid: 5917cc7df24964d4cb8ebecadd76f43e, type: 2}
+  - {fileID: 11400000, guid: d6e0538cdb04f4647ba356c0d2273e07, type: 2}
+  - {fileID: 11400000, guid: 60319cc74aceb1643808ef4512119790, type: 2}
+  - {fileID: 11400000, guid: 1854b4be5cd967643b16cd1337339a81, type: 2}
+  - {fileID: 11400000, guid: da9fd17560396ad4e8791fa4954060bf, type: 2}
+  - {fileID: 11400000, guid: ba92966d79a606e4cbeb05c327f2d1e1, type: 2}
+  - {fileID: 11400000, guid: e400a7b5a4f9c9e4680bbff899b19eb0, type: 2}
+  - {fileID: 11400000, guid: 578d26f62fcb79641a08f5000269bfca, type: 2}
+  - {fileID: 11400000, guid: d2ea62f27575e9f41a622fd1a7d6d5ad, type: 2}
+  - {fileID: 11400000, guid: 14b3b99dec0407c48b6e7947f80ffefe, type: 2}
+  - {fileID: 11400000, guid: 3bb5843fee4300244baa27506b94b416, type: 2}
+  - {fileID: 11400000, guid: aa6850ab01e286f4894797d020b8240e, type: 2}
+  - {fileID: 11400000, guid: 2c92eb232644fd24b998f85ba8aeb543, type: 2}
+  - {fileID: 11400000, guid: ca9ada4a65dbacf4d8c8d8c50e30190a, type: 2}
+  - {fileID: 11400000, guid: d6dec2ce219ed5d4aa4ab7032c23db3a, type: 2}
+  - {fileID: 11400000, guid: df9abd7acb3c7604687e61542be992ff, type: 2}
+  - {fileID: 11400000, guid: b783f3c7a1630e748af48e9f1e64cd4b, type: 2}
+  - {fileID: 11400000, guid: 9cf16790265bb024c97771339d580f3d, type: 2}
+  - {fileID: 11400000, guid: 3a0caa97f40f56d4487ecedda1bc6003, type: 2}
+  - {fileID: 11400000, guid: 37766d8041b775e40981733f41c88141, type: 2}
+  - {fileID: 11400000, guid: 25f0e5c44352efd4d91c63c5168f4be4, type: 2}
+  - {fileID: 11400000, guid: e06dd0d4d172b5645b889d7d6ed65171, type: 2}
+  - {fileID: 11400000, guid: cb601e2c2fc0aaf4baf39ed42e8f0c2c, type: 2}
+  - {fileID: 11400000, guid: dc458fcad8ac0ad4aae8ba17f1ed9776, type: 2}
+  - {fileID: 11400000, guid: 339e7e8142370894ca58d42cf00c5827, type: 2}
+  - {fileID: 11400000, guid: fc310cd6769fbb146ad43af6ccfa3234, type: 2}
+  - {fileID: 11400000, guid: efae3e2219dd0204c8410c21f42933fa, type: 2}
+  - {fileID: 11400000, guid: 858e3f01c4d9b1c4ea7571e830cc6dbd, type: 2}
+  - {fileID: 11400000, guid: b2a6ba540dfc2a34596d8ab90300e03c, type: 2}
+  - {fileID: 11400000, guid: 4c7cb20c2f2f5914f8001f9060626818, type: 2}
+  - {fileID: 11400000, guid: b3e9ec2fb6e54084db7bd51f50f5a70e, type: 2}
+  - {fileID: 11400000, guid: c8e927a7e2306274f8d98ea13e9c5c14, type: 2}
+  - {fileID: 11400000, guid: 37e4597001df5614e8e9340e7be07b0b, type: 2}
   dictionary:
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
   - spawnWave: 0
     item: {fileID: 0}
     hasBeenCollected: 0
