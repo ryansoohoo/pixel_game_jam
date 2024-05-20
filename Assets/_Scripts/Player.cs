@@ -1,9 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity;
+using FMOD.Studio;
 
 public class Player : Unit
 {
+    [SerializeField] private EventReference otterSwimSound;
+    private EventInstance otterSwim;
+
     public static Player instance;
     public Inventory inventory;
     public Animator anim;
@@ -43,6 +48,8 @@ public class Player : Unit
         Animator hatAnim = hat.GetComponent<Animator>();
         animatorOverrideController = new AnimatorOverrideController(hatAnim.runtimeAnimatorController);
         hatAnim.runtimeAnimatorController = animatorOverrideController;
+
+        otterSwim = AudioManager.instance.CreateInstance(FMODEvents.instance.otterSwim);
     }
 
     void Update()
@@ -115,6 +122,8 @@ public class Player : Unit
         {
             rb.gravityScale = 1.0f;
         }
+
+        UpdateSound();
     }
 
     void StartDash()
@@ -191,5 +200,22 @@ public class Player : Unit
 
         hat.sprite = null;
         print("remove hat");
+    }
+
+    private void UpdateSound()
+    {
+        if (Mathf.Abs(rb.velocity.x) > 0.8 || Mathf.Abs(rb.velocity.y) > 0.8)
+        {
+            PLAYBACK_STATE playbackState;
+            otterSwim.getPlaybackState(out playbackState);
+            if (playbackState.Equals(PLAYBACK_STATE.STOPPED))
+            {
+                otterSwim.start();
+            }
+        }
+        else
+        {
+            otterSwim.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        }
     }
 }

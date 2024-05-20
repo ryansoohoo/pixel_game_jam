@@ -4422,7 +4422,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1179769088}
   m_Father: {fileID: 865726468}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &892477707
@@ -5938,6 +5939,64 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1179769087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1179769088}
+  - component: {fileID: 1179769089}
+  m_Layer: 0
+  m_Name: FMODEvents
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1179769088
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179769087}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 892477706}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1179769089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179769087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ee5e297d5cae144191af273775aed5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <hatCollected>k__BackingField:
+    Guid:
+      Data1: 711311556
+      Data2: 1296599306
+      Data3: 2038008964
+      Data4: 1489635298
+    Path: event:/SFX/HatCollect
+  <otterSwim>k__BackingField:
+    Guid:
+      Data1: -1253672242
+      Data2: 1262687458
+      Data3: 1969195650
+      Data4: -1511255585
+    Path: event:/SFX/OtterSwim
 --- !u!1001 &1226557580
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6860,6 +6919,13 @@ MonoBehaviour:
       Data3: 417206204
       Data4: -1161799406
     Path: event:/SFX/DropOff
+  dialogueSound:
+    Guid:
+      Data1: -681084759
+      Data2: 1170561983
+      Data3: 964657287
+      Data4: -1855358853
+    Path: event:/SFX/OtterDialogue
   otterboat: {fileID: 941203229}
 --- !u!1001 &1389034239
 PrefabInstance:
@@ -100512,6 +100578,13 @@ MonoBehaviour:
   rb: {fileID: 707428874632152775}
   buoyancy: 0.15
   buoyancyFrequency: 0.5
+  otterSwimSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   inventory: {fileID: 6751599829298509485}
   anim: {fileID: 4429225241684814420}
   spriteChild: {fileID: 4188533664603563446}
