@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ddf3981d634db04284ccbd550ebdde6, type: 3}
   m_Name: Eightfold Beret
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
+  image: {fileID: -70534717, guid: cce1e6717a6b6c64083608ed5373a82f, type: 3}
   imageDown: {fileID: 0}
+  imageNotCollected: {fileID: 0}
   idle: {fileID: 7400000, guid: 525b66d45b3abba478be1723f59d0df7, type: 2}
   down: {fileID: 0}
   characterLiking: 2

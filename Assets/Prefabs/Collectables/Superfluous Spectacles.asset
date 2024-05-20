@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ddf3981d634db04284ccbd550ebdde6, type: 3}
   m_Name: Superfluous Spectacles
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
+  image: {fileID: -1267736354, guid: 38e53dfe3b07fcc47b3370c95f27c69e, type: 3}
   imageDown: {fileID: 0}
+  imageNotCollected: {fileID: 0}
   idle: {fileID: 7400000, guid: de60c787aab9f6e44a7c84e014b191c1, type: 2}
   down: {fileID: 0}
   characterLiking: 1

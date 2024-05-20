@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ddf3981d634db04284ccbd550ebdde6, type: 3}
   m_Name: Shellfish Fedora
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
+  image: {fileID: 1346021328, guid: 2ea43edc31ac8714696b2ccc25e308a6, type: 3}
   imageDown: {fileID: 0}
+  imageNotCollected: {fileID: 0}
   idle: {fileID: 7400000, guid: de102783c28d60048baf326d523f3348, type: 2}
   down: {fileID: 0}
   characterLiking: 2

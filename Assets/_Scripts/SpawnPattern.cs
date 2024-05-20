@@ -22,22 +22,30 @@ public class SpawnPattern : MonoBehaviour
     {
         if(instance == null)
             instance = this;
+        collectables.Shuffle();
     }
 
 
     public Collectable GetRandomCollectable()
     {
-        int rand = Random.Range(0, collectables.Count);
-        Collectable collectable;
-        for (int i = rand; i< collectables.Count; i++)
-        {
-            collectable = collectables[rand];
-            if (collectable.image == null)
-                i++;
-            else
-                return collectable;
-        }
-        return collectables[Random.Range(0, collectables.Count)];
+        currentWave += 1;
+        return collectables[Random.Range(0,collectables.Count)];
     }
 }
 
+public static class ListExtensions
+{
+    public static void Shuffle<T>(this IList<T> list)
+    {
+        System.Random rng = new System.Random();
+        int n = list.Count;
+        while (n > 1)
+        {
+            n--;
+            int k = rng.Next(n + 1);
+            T value = list[k];
+            list[k] = list[n];
+            list[n] = value;
+        }
+    }
+}

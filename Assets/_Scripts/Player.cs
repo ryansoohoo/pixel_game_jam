@@ -29,8 +29,13 @@ public class Player : Unit
     private float divingTimeLeft = 0f;
     float divespeed = 1f;
 
+<<<<<<< HEAD
     private EventInstance otterSwim;
     
+=======
+    protected Animator animator;
+    protected AnimatorOverrideController animatorOverrideController;
+>>>>>>> e619b118715fbb3dbfb5cfa9cd2aa46242c4ee8a
     private void Awake()
     {
         if(instance == null) instance = this;
@@ -40,7 +45,14 @@ public class Player : Unit
     {
         rb = GetComponent<Rigidbody2D>();
         rb.gravityScale = 0;
+<<<<<<< HEAD
         otterSwim = AudioManager.instance.CreateInstance(FMODEvents.instance.otterSwim);
+=======
+
+        Animator hatAnim = hat.GetComponent<Animator>();
+        animatorOverrideController = new AnimatorOverrideController(hatAnim.runtimeAnimatorController);
+        hatAnim.runtimeAnimatorController = animatorOverrideController;
+>>>>>>> e619b118715fbb3dbfb5cfa9cd2aa46242c4ee8a
     }
 
     void Update()
@@ -191,11 +203,22 @@ public class Player : Unit
 
     public void Equip(Collectable collectable)
     {
-        hat.sprite = collectable.image;
+        if(collectable.idle != null)
+        {
+            hat.GetComponent<Animator>().enabled = true;
+            animatorOverrideController["idle"] = collectable.idle;
+        }
+        else
+        {
+            hat.sprite = collectable.image;
+            hat.GetComponent<Animator>().enabled = false;
+        }
     }
 
     public void RemoveHat(Collectable collectable)
     {
+        hat.GetComponent<Animator>().enabled = false;
+
         hat.sprite = null;
         print("remove hat");
     }

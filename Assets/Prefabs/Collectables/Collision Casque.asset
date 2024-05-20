@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ddf3981d634db04284ccbd550ebdde6, type: 3}
   m_Name: Collision Casque
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
+  image: {fileID: -771392264, guid: 57c31db02f40cec4fb5db17f4f327a2c, type: 3}
   imageDown: {fileID: 0}
+  imageNotCollected: {fileID: 0}
   idle: {fileID: 7400000, guid: cc9120e7d123bc142be49ee5c2d5b5b1, type: 2}
   down: {fileID: 0}
   characterLiking: 2
