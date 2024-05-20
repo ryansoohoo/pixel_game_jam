@@ -20,8 +20,8 @@ public class Item : Unit
 
     public Collectable PickUp()
     {
-        Destroy(gameObject);
         AudioManager.instance.PlayOneShot(hatCollectedSound, this.transform.position);
+        Destroy(gameObject);
         return collectable;
     }
 
