@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: FMODAssets/Desktop/Master.strings.bank
   Name: Desktop/Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638517683715581683
+  lastModified: 638518364350803818
   FileSizes:
   - Name: 
-    Value: 1130
+    Value: 1180
   Exists: 1
 --- !u!114 &-5339188083706958461
 MonoBehaviour:
@@ -35,7 +35,7 @@ MonoBehaviour:
   Path: FMODAssets/Desktop/Master.bank
   Name: Desktop/Master
   StudioPath: bank:/Master
-  lastModified: 638517683715531671
+  lastModified: 638518364350793849
   FileSizes: []
   Exists: 1
 --- !u!114 &-5140451734212780611
@@ -60,7 +60,7 @@ MonoBehaviour:
   - {fileID: 3110192837034930392}
   IsStream: 0
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
@@ -115,12 +115,13 @@ MonoBehaviour:
   - {fileID: 7289023003646242354}
   - {fileID: 6615883915673597921}
   - {fileID: -5140451734212780611}
+  - {fileID: 4131051948857662662}
   EditorParameters: []
   MasterBanks:
   - {fileID: -5339188083706958461}
   StringsBanks:
   - {fileID: -6493869180414689629}
-  cacheTime: 638517683715981672
+  cacheTime: 638518364353058527
   cacheVersion: 131618
 --- !u!114 &2776635225213022561
 MonoBehaviour:
@@ -137,7 +138,7 @@ MonoBehaviour:
   Path: FMODAssets/Desktop/Music.bank
   Name: Desktop/Music
   StudioPath: bank:/Music
-  lastModified: 638517683715871750
+  lastModified: 638518307305210637
   FileSizes: []
   Exists: 1
 --- !u!114 &3110192837034930392
@@ -155,9 +156,36 @@ MonoBehaviour:
   Path: FMODAssets/Desktop/SFX.bank
   Name: Desktop/SFX
   StudioPath: bank:/SFX
-  lastModified: 638517683715981672
+  lastModified: 638518364353058527
   FileSizes: []
   Exists: 1
+--- !u!114 &4131051948857662662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/OtterDialogue
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/OtterDialogue
+  Guid:
+    Data1: -681084759
+    Data2: 1170561983
+    Data3: 964657287
+    Data4: -1855358853
+  Banks:
+  - {fileID: 3110192837034930392}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &4993824643056699430
 MonoBehaviour:
   m_ObjectHideFlags: 0
