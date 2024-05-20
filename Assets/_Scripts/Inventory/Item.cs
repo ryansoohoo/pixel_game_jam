@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity;
 
 public class Item : Unit
 {
+
+    [SerializeField] private EventReference hatCollectedSound;
     public Collectable collectable;
 
     public void Start()
@@ -18,6 +21,7 @@ public class Item : Unit
     public Collectable PickUp()
     {
         Destroy(gameObject);
+        AudioManager.instance.PlayOneShot(hatCollectedSound, this.transform.position);
         return collectable;
     }
 
