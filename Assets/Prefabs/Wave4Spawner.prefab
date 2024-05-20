@@ -1,0 +1,192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4858289731566726678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3787249884306608536}
+  - component: {fileID: 2167824471050810324}
+  - component: {fileID: 2359850262263376401}
+  m_Layer: 0
+  m_Name: Wave4Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3787249884306608536
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4858289731566726678}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.0325484, y: -1.9637161, z: -0.06334918}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2167824471050810324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4858289731566726678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a2084673458207448ff80e29c133760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2359850262263376401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4858289731566726678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1459f3e008956c4e9cfab8881d1b07c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectables:
+  - {fileID: 11400000, guid: 74afe29c922bf4048a604933b60b1d05, type: 2}
+  - {fileID: 11400000, guid: 7bd87f8dcf091604387ea1dc5928298f, type: 2}
+  - {fileID: 11400000, guid: d2ea62f27575e9f41a622fd1a7d6d5ad, type: 2}
+  - {fileID: 11400000, guid: aa6850ab01e286f4894797d020b8240e, type: 2}
+  - {fileID: 11400000, guid: d6dec2ce219ed5d4aa4ab7032c23db3a, type: 2}
+  - {fileID: 11400000, guid: b783f3c7a1630e748af48e9f1e64cd4b, type: 2}
+  - {fileID: 11400000, guid: 25f0e5c44352efd4d91c63c5168f4be4, type: 2}
+  - {fileID: 11400000, guid: dc458fcad8ac0ad4aae8ba17f1ed9776, type: 2}
+  - {fileID: 11400000, guid: 4c7cb20c2f2f5914f8001f9060626818, type: 2}
+  - {fileID: 11400000, guid: c8e927a7e2306274f8d98ea13e9c5c14, type: 2}
+  dictionary:
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  - spawnWave: 0
+    item: {fileID: 0}
+    hasBeenCollected: 0
+  currentWave: 0
