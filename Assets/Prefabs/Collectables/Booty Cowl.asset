@@ -13,10 +13,14 @@ MonoBehaviour:
   m_Name: Booty Cowl
   m_EditorClassIdentifier: 
   image: {fileID: -1401285626, guid: e69503f53bf853f49927301a5a4dba61, type: 3}
-  imageBehind: {fileID: 0}
+  imageDown: {fileID: 0}
+  imageNotCollected: {fileID: 0}
+  idle: {fileID: 0}
+  down: {fileID: 0}
+  characterLiking: 0
   itemName: Booty Cowl
   desc: 'Its heart is a deep ocean of secrets (*Caution: This product only floaty
     enough for one.)'
   dropRate: 0.1
   weight: 2
-  itemIndex: 0
+  itemIndex: 30

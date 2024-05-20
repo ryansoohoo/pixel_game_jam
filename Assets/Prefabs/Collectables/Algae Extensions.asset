@@ -22,4 +22,4 @@ MonoBehaviour:
   desc: Roll one for sushi, not for Scooby
   dropRate: 0.1
   weight: 2
-  itemIndex: 0
+  itemIndex: 7

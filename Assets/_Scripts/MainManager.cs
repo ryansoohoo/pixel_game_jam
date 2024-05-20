@@ -11,7 +11,7 @@ public class MainManager : MonoBehaviour
     public Animator olga;
     public Animator octavia;
     public Animator omar;
-
+    public List<GameObject> collection;
     public void Awake()
     {
         instance = this; 
@@ -39,5 +39,6 @@ public class MainManager : MonoBehaviour
                 omar.SetTrigger("0");
                 break;
         }
+        collection[item.itemIndex].SetActive(true);
     }
 }

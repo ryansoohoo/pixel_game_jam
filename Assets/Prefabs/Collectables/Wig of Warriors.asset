@@ -22,4 +22,4 @@ MonoBehaviour:
   desc: The enemy of my anemone is my food
   dropRate: 0.1
   weight: 2
-  itemIndex: 0
+  itemIndex: 14

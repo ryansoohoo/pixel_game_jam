@@ -13,9 +13,13 @@ MonoBehaviour:
   m_Name: Buoyant Bowler
   m_EditorClassIdentifier: 
   image: {fileID: -1037174133, guid: e69503f53bf853f49927301a5a4dba61, type: 3}
-  imageBehind: {fileID: 0}
+  imageDown: {fileID: 0}
+  imageNotCollected: {fileID: 0}
+  idle: {fileID: 0}
+  down: {fileID: 0}
+  characterLiking: 0
   itemName: Buoyant Bowler
   desc: Seal the deal with a trick!
   dropRate: 0.1
   weight: 2
-  itemIndex: 0
+  itemIndex: 24
