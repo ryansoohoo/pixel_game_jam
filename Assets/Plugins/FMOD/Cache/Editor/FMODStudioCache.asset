@@ -1,5 +1,25 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8817214373165007111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD Assets/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638518185936558449
+  FileSizes:
+  - Name: Desktop
+    Value: 1130
+  Exists: 1
 --- !u!114 &-6934309721302698325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17,6 +37,93 @@ MonoBehaviour:
   StudioPath: bank:/Music
   lastModified: 638518185937526035
   FileSizes: []
+  Exists: 1
+--- !u!114 &-5784527018563203549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/DropOff
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/DropOff
+  Guid:
+    Data1: -1446182478
+    Data2: 1333700623
+    Data3: 417206204
+    Data4: -1161799406
+  Banks:
+  - {fileID: -4312932699407779437}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4533900324918920741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD Assets/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 638518185937526035
+  FileSizes:
+  - Name: Desktop
+    Value: 1578464
+  Exists: 1
+--- !u!114 &-4312932699407779437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD Assets/Desktop/SFX.bank
+  Name: SFX
+  StudioPath: bank:/SFX
+  lastModified: 638518185938043295
+  FileSizes:
+  - Name: Desktop
+    Value: 231008
+  Exists: 1
+--- !u!114 &-4043059360406421687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD Assets/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638518185936527664
+  FileSizes:
+  - Name: Desktop
+    Value: 1340
   Exists: 1
 --- !u!114 &-1302999683373467129
 MonoBehaviour:
@@ -63,6 +170,33 @@ MonoBehaviour:
   lastModified: 638518185936527664
   FileSizes: []
   Exists: 1
+--- !u!114 &-416407424867505950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Title Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Title Music
+  Guid:
+    Data1: 1382467009
+    Data2: 1093861697
+    Data3: -1164132426
+    Data4: 371199947
+  Banks:
+  - {fileID: -4533900324918920741}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 60007
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76,21 +210,21 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 4899859606349953496}
-  - {fileID: -1154975554423383495}
-  - {fileID: -6934309721302698325}
-  - {fileID: 212854236182714072}
+  - {fileID: -8817214373165007111}
+  - {fileID: -4043059360406421687}
+  - {fileID: -4533900324918920741}
+  - {fileID: -4312932699407779437}
   EditorEvents:
-  - {fileID: 2898815556028495746}
-  - {fileID: 4684682074305323301}
-  - {fileID: 7778691124399198155}
-  - {fileID: 5629061000122506438}
-  - {fileID: -1302999683373467129}
+  - {fileID: 7168851783896248092}
+  - {fileID: -416407424867505950}
+  - {fileID: -5784527018563203549}
+  - {fileID: 2345195979832421143}
+  - {fileID: 2877127699735323525}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -1154975554423383495}
+  - {fileID: -4043059360406421687}
   StringsBanks:
-  - {fileID: 4899859606349953496}
+  - {fileID: -8817214373165007111}
   cacheTime: 638518185938043295
   cacheVersion: 131618
 --- !u!114 &212854236182714072
@@ -111,6 +245,60 @@ MonoBehaviour:
   lastModified: 638518185938043295
   FileSizes: []
   Exists: 1
+--- !u!114 &2345195979832421143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/HatCollect
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/HatCollect
+  Guid:
+    Data1: 711311556
+    Data2: 1296599306
+    Data3: 2038008964
+    Data4: 1489635298
+  Banks:
+  - {fileID: -4312932699407779437}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2877127699735323525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/OtterSwim
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/OtterSwim
+  Guid:
+    Data1: -1253672242
+    Data2: 1262687458
+    Data3: 1969195650
+    Data4: -1511255585
+  Banks:
+  - {fileID: -4312932699407779437}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
 --- !u!114 &2898815556028495746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -212,6 +400,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &7168851783896248092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Game Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Game Music
+  Guid:
+    Data1: -1509575113
+    Data2: 1225825338
+    Data3: 855784326
+    Data4: -1336436491
+  Banks:
+  - {fileID: -4533900324918920741}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 70561
 --- !u!114 &7778691124399198155
 MonoBehaviour:
   m_ObjectHideFlags: 0
