@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-5471379662034552265
+--- !u!114 &-6934309721302698325
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,15 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/SFX.bank
+  m_Name: bank:/Desktop/Music.bank
   m_EditorClassIdentifier: 
-  Path: ../../FMOD Studio/pixel game jam/Build/Desktop/SFX.bank
-  Name: SFX
-  StudioPath: bank:/SFX
-  lastModified: 638518017923456222
-  FileSizes:
-  - Name: Desktop
-    Value: 231008
+  Path: FMOD Assets/Desktop/Music.bank
+  Name: Desktop/Music
+  StudioPath: bank:/Music
+  lastModified: 638518185937526035
+  FileSizes: []
   Exists: 1
 --- !u!114 &-1302999683373467129
 MonoBehaviour:
@@ -39,7 +37,7 @@ MonoBehaviour:
     Data3: 1969195650
     Data4: -1511255585
   Banks:
-  - {fileID: -5471379662034552265}
+  - {fileID: 212854236182714072}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -47,7 +45,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
---- !u!114 &-294407286641392373
+--- !u!114 &-1154975554423383495
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -57,15 +55,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
+  m_Name: bank:/Desktop/Master.bank
   m_EditorClassIdentifier: 
-  Path: ../../FMOD Studio/pixel game jam/Build/Desktop/Master.bank
-  Name: Master
+  Path: FMOD Assets/Desktop/Master.bank
+  Name: Desktop/Master
   StudioPath: bank:/Master
-  lastModified: 638518017921689101
-  FileSizes:
-  - Name: Desktop
-    Value: 1340
+  lastModified: 638518185936527664
+  FileSizes: []
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -80,10 +76,10 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 4735657637956900816}
-  - {fileID: -294407286641392373}
-  - {fileID: 175574519710511155}
-  - {fileID: -5471379662034552265}
+  - {fileID: 4899859606349953496}
+  - {fileID: -1154975554423383495}
+  - {fileID: -6934309721302698325}
+  - {fileID: 212854236182714072}
   EditorEvents:
   - {fileID: 2898815556028495746}
   - {fileID: 4684682074305323301}
@@ -92,12 +88,12 @@ MonoBehaviour:
   - {fileID: -1302999683373467129}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -294407286641392373}
+  - {fileID: -1154975554423383495}
   StringsBanks:
-  - {fileID: 4735657637956900816}
-  cacheTime: 638518017923456222
+  - {fileID: 4899859606349953496}
+  cacheTime: 638518185938043295
   cacheVersion: 131618
---- !u!114 &175574519710511155
+--- !u!114 &212854236182714072
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,15 +103,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Music.bank
+  m_Name: bank:/Desktop/SFX.bank
   m_EditorClassIdentifier: 
-  Path: ../../FMOD Studio/pixel game jam/Build/Desktop/Music.bank
-  Name: Music
-  StudioPath: bank:/Music
-  lastModified: 638517965059299491
-  FileSizes:
-  - Name: Desktop
-    Value: 1578464
+  Path: FMOD Assets/Desktop/SFX.bank
+  Name: Desktop/SFX
+  StudioPath: bank:/SFX
+  lastModified: 638518185938043295
+  FileSizes: []
   Exists: 1
 --- !u!114 &2898815556028495746
 MonoBehaviour:
@@ -136,7 +130,7 @@ MonoBehaviour:
     Data3: 855784326
     Data4: -1336436491
   Banks:
-  - {fileID: 175574519710511155}
+  - {fileID: -6934309721302698325}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -163,7 +157,7 @@ MonoBehaviour:
     Data3: -1164132426
     Data4: 371199947
   Banks:
-  - {fileID: 175574519710511155}
+  - {fileID: -6934309721302698325}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -171,7 +165,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 60007
---- !u!114 &4735657637956900816
+--- !u!114 &4899859606349953496
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -181,14 +175,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
+  m_Name: bank:/Desktop/Master.strings.bank
   m_EditorClassIdentifier: 
-  Path: ../../FMOD Studio/pixel game jam/Build/Desktop/Master.strings.bank
-  Name: Master.strings
+  Path: FMOD Assets/Desktop/Master.strings.bank
+  Name: Desktop/Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638518017921709147
+  lastModified: 638518185936558449
   FileSizes:
-  - Name: Desktop
+  - Name: 
     Value: 1130
   Exists: 1
 --- !u!114 &5629061000122506438
@@ -210,7 +204,7 @@ MonoBehaviour:
     Data3: 2038008964
     Data4: 1489635298
   Banks:
-  - {fileID: -5471379662034552265}
+  - {fileID: 212854236182714072}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -237,7 +231,7 @@ MonoBehaviour:
     Data3: 417206204
     Data4: -1161799406
   Banks:
-  - {fileID: -5471379662034552265}
+  - {fileID: 212854236182714072}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
