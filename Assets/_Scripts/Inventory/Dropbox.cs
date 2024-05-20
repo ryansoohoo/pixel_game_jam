@@ -12,10 +12,12 @@ public class Dropbox : Triggerbox
         {
             MainManager.instance.MoveItem(Player.instance.inventory.collectables[0],Player.instance.inventory,otterboat.inventory);    
         }
+        CameraFollow.instance.inBoat = true;
     }
 
     public override void OnExit()
     {
+        CameraFollow.instance.inBoat = false;
         Player.instance.inDropBox = false;
     }
 }
