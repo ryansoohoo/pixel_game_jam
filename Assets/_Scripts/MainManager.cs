@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class MainManager : MonoBehaviour
@@ -23,9 +24,20 @@ public class MainManager : MonoBehaviour
         inv2.AddCollectable(item);
 
         UIManager.Instance.StartTyping(item.name,item.desc);
-        oscar.SetTrigger("0");
-        olga.SetTrigger("0");
-        octavia.SetTrigger("0");
-        omar.SetTrigger("0");
+        switch (item.characterLiking)
+        {
+            case (CharacterLikings.Oscar):
+                oscar.SetTrigger("0");
+                break;
+            case (CharacterLikings.Olga):
+                olga.SetTrigger("0");
+                break;
+            case (CharacterLikings.Octavia):
+                octavia.SetTrigger("0");
+                break;
+            case (CharacterLikings.Omar):
+                omar.SetTrigger("0");
+                break;
+        }
     }
 }

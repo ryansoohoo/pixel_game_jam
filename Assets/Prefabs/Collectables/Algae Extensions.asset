@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ddf3981d634db04284ccbd550ebdde6, type: 3}
   m_Name: Algae Extensions
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
+  image: {fileID: 1129515977, guid: 14b503d2bce8ac94a950503cbba5885f, type: 3}
   imageDown: {fileID: 0}
+  imageNotCollected: {fileID: 0}
   idle: {fileID: 7400000, guid: 9ccaf2a933f946b4dbdfc786ede7bae7, type: 2}
   down: {fileID: 7400000, guid: e0398e199a7b11344a4b99867a0dc0a0, type: 2}
   characterLiking: 2

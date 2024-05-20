@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ddf3981d634db04284ccbd550ebdde6, type: 3}
   m_Name: Helmet Crab
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
+  image: {fileID: -1449028262, guid: 58ca75d44ebec2d4fb4def8b2a850b7b, type: 3}
   imageDown: {fileID: 0}
+  imageNotCollected: {fileID: 0}
   idle: {fileID: 7400000, guid: 35f80adb212b460469a5cffb98dc19ca, type: 2}
   down: {fileID: 0}
   characterLiking: 2

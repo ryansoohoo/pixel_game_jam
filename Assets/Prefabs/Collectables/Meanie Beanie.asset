@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ddf3981d634db04284ccbd550ebdde6, type: 3}
   m_Name: Meanie Beanie
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
+  image: {fileID: 1717057442, guid: a3f648d293bb03345a23ac8318e4e443, type: 3}
   imageDown: {fileID: 0}
+  imageNotCollected: {fileID: 0}
   idle: {fileID: 7400000, guid: 204a126bc6e3f2c4793b779e6c84f363, type: 2}
   down: {fileID: 0}
   characterLiking: 2

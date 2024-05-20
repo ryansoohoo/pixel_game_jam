@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ddf3981d634db04284ccbd550ebdde6, type: 3}
   m_Name: Cocktail Topper
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
+  image: {fileID: 890983496, guid: df7922fa6980d514b8fb303ff41091c0, type: 3}
   imageDown: {fileID: 0}
+  imageNotCollected: {fileID: 0}
   idle: {fileID: 7400000, guid: 558e614b3e82a5a408a765d8db84f8d6, type: 2}
   down: {fileID: 0}
   characterLiking: 2
