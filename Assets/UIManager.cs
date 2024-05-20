@@ -42,6 +42,8 @@ public class UIManager : MonoBehaviour
         isTyping = false;
         isFading = false;
         fadeTimer = 0f;
+
+        StartTyping("Otters Home Boat", "Deliver treasures and receive wisdom in return");
     }
 
     private void Update()
