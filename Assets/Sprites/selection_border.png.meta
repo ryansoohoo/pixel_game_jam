@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 88f84d198a040084aa2e21b40782b6c9
+guid: ba9aef3d39c8edf47913570a02da8f57
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 6
-  spritePivot: {x: 0.5, y: 0.5}
+  spritePivot: {x: 0, y: 0}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -136,22 +136,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gem_0
+      name: selection_border_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c9d28cc3b10ff57c0800000000000000
-      internalID: -4080278737599844964
+      spriteID: ffaf22d63a320c44e9199fa0b396fd30
+      internalID: -831097971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selection_border_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaeab2a9168154f47a0f5a8d29916324
+      internalID: 1026642158
       vertices: []
       indices: 
       edges: []
@@ -167,7 +188,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Gem_0: -4080278737599844964
+      selection_border_0: -831097971
+      selection_border_1: 1026642158
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
